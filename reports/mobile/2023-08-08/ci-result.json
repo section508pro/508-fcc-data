@@ -1,0 +1,802 @@
+[
+  {
+    "path": "/",
+    "score": 0.93
+  },
+  {
+    "path": "/5G",
+    "score": 0.98
+  },
+  {
+    "path": "/about-auctions",
+    "score": 0.98
+  },
+  {
+    "path": "/about-fcc/advisory-committees-fcc",
+    "score": 0.97
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/communications-security-reliability-and",
+    "score": 0.98
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/downloadable-security-technology-advisory-committee",
+    "score": 0.98
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/federal-state-joint-conference-advanced",
+    "score": 0.97
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/intergovernmental-advisory-committee",
+    "score": 0.96
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/north-american-numbering-council",
+    "score": 0.98
+  },
+  {
+    "path": "/about-fcc/advisory-committees/world-radiocommunication-conference-wrc",
+    "score": 0.98
+  },
+  {
+    "path": "/about-fcc/contracting",
+    "score": 0.98
+  },
+  {
+    "path": "/about-fcc/fcc-initiatives",
+    "score": 0.98
+  },
+  {
+    "path": "/about-fcc/fcc-initiatives/homework-gap-and-connectivity-divide",
+    "score": 0.97
+  },
+  {
+    "path": "/about-fcc/finding-people-fcc",
+    "score": 0.96
+  },
+  {
+    "path": "/about-fcc/general/advisory-committees-fcc",
+    "score": 0.97
+  },
+  {
+    "path": "/about-fcc/jobs-internships",
+    "score": 0.98
+  },
+  {
+    "path": "/about/contact",
+    "score": 0.96
+  },
+  {
+    "path": "/about/guest-author/jen-easterly",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership",
+    "score": 0.94
+  },
+  {
+    "path": "/about/leadership/brendan-carr",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/brendan-carr/letters",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/brendan-carr/news",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/brendan-carr/op-eds",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/brendan-carr/speeches",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/brendan-carr/staff",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/op-eds",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/press-and-meeting-inquiries",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/speeches",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/staff",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/statements",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/editorials",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/notes",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/podcast",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/press-and-meeting-inquiries",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/speeches",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/nathan-simington",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/nathan-simington/press-and-meeting-inquiries",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/nathan-simington/speeches",
+    "score": 0.98
+  },
+  {
+    "path": "/about/leadership/nathan-simington/staff",
+    "score": 0.96
+  },
+  {
+    "path": "/about/leadership/nathan-simington/statements",
+    "score": 0.98
+  },
+  {
+    "path": "/about/overview",
+    "score": 0.96
+  },
+  {
+    "path": "/about/strategic-plans-budget",
+    "score": 0.96
+  },
+  {
+    "path": "/accessibility/program",
+    "score": 0.98
+  },
+  {
+    "path": "/ASLCallPortal",
+    "score": 0.94
+  },
+  {
+    "path": "/auction/903",
+    "score": 0.97
+  },
+  {
+    "path": "/auctions",
+    "score": 0.94
+  },
+  {
+    "path": "/auctions-contact-information",
+    "score": 0.98
+  },
+  {
+    "path": "/auctions-experiments-papers-studies",
+    "score": 0.97
+  },
+  {
+    "path": "/auctions-summary",
+    "score": 0.96
+  },
+  {
+    "path": "/auctions/archive",
+    "score": 0.96
+  },
+  {
+    "path": "/auctions/conferences",
+    "score": 0.98
+  },
+  {
+    "path": "/auctions/consumer-alert",
+    "score": 0.98
+  },
+  {
+    "path": "/auctions/cross-references",
+    "score": 0.96
+  },
+  {
+    "path": "/auctions/general-releases",
+    "score": 0.96
+  },
+  {
+    "path": "/broadband-deployment-advisory-committee",
+    "score": 0.97
+  },
+  {
+    "path": "/BroadbandData",
+    "score": 0.96
+  },
+  {
+    "path": "/BroadbandData/bdtf",
+    "score": 0.98
+  },
+  {
+    "path": "/communications-equity-and-diversity-council",
+    "score": 0.97
+  },
+  {
+    "path": "/connecting-americans-health-care",
+    "score": 0.98
+  },
+  {
+    "path": "/consumer-advisory-committee",
+    "score": 0.98
+  },
+  {
+    "path": "/consumer-and-governmental-affairs",
+    "score": 0.96
+  },
+  {
+    "path": "/consumer-and-governmental-affairs/about-bureau/office-intergovernmental-affairs/iac-archive/general",
+    "score": 0.98
+  },
+  {
+    "path": "/consumer-and-governmental-affairs/office-intergovernmental-affairs",
+    "score": 0.96
+  },
+  {
+    "path": "/consumer-governmental-affairs",
+    "score": 0.96
+  },
+  {
+    "path": "/consumer-governmental-affairs/about-bureau/office-native-affairs-and-policy/native-nations",
+    "score": 0.97
+  },
+  {
+    "path": "/consumer-governmental-affairs/consumer-guides/how-to-take-action",
+    "score": 0.98
+  },
+  {
+    "path": "/consumer-governmental-affairs/consumer-guides/xiao-fei-zhe-zhi-nan-chinese/dian-hua",
+    "score": 0.98
+  },
+  {
+    "path": "/consumer-governmental-affairs/xiao-fei-zhe-zhi-nan",
+    "score": 0.98
+  },
+  {
+    "path": "/consumer-guides",
+    "score": 0.98
+  },
+  {
+    "path": "/consumer-mga-gabay",
+    "score": 0.98
+  },
+  {
+    "path": "/consumers",
+    "score": 0.94
+  },
+  {
+    "path": "/consumers/guides/broadcast-information-specialists",
+    "score": 0.98
+  },
+  {
+    "path": "/consumers/guides/stop-unwanted-robocalls-and-texts",
+    "score": 0.96
+  },
+  {
+    "path": "/consumers/social-media",
+    "score": 0.98
+  },
+  {
+    "path": "/coronavirus",
+    "score": 0.98
+  },
+  {
+    "path": "/digitalstrategy",
+    "score": 0.98
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-accepted-filing-1/attachment-a",
+    "score": 0.95
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-accepted-filing-1/attachment-b",
+    "score": 0.95
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-granted-1/attachment-a",
+    "score": 0.95
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-granted-1/attachment-b",
+    "score": 0.95
+  },
+  {
+    "path": "/document/auction-904-defaults-public-notice/attachment-a",
+    "score": 0.95
+  },
+  {
+    "path": "/document/auction-904-defaults-public-notice/attachment-a-0",
+    "score": 0.95
+  },
+  {
+    "path": "/document/caf-phase-ii-auction-support-1-winning-bid-ready-be-authorized/attachment-a",
+    "score": 0.96
+  },
+  {
+    "path": "/document/caf-phase-ii-auction-support-1-winning-bid-ready-be-authorized/attachment-b",
+    "score": 0.96
+  },
+  {
+    "path": "/document/caf-phase-ii-auction-support-authorized-6-winning-bids/attachment-a",
+    "score": 0.96
+  },
+  {
+    "path": "/document/fcc-acts-provide-subsidy-consumers-certain-high-cost-areas",
+    "score": 0.96
+  },
+  {
+    "path": "/document/fcc-acts-provide-subsidy-consumers-certain-high-cost-areas-0",
+    "score": 0.98
+  },
+  {
+    "path": "/document/fcc-acts-provide-subsidy-consumers-certain-high-cost-areas/rosenworcel-statement-0",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-acts-provide-subsidy-consumers-certain-high-cost-areas/simington-statement-0",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-acts-provide-subsidy-consumers-certain-high-cost-areas/starks-statement-0",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-announces-nationwide-emergency-alerting-tests-october-4-2023",
+    "score": 0.98
+  },
+  {
+    "path": "/document/fcc-assesses-nearly-300m-forfeiture-unlawful-robocalls",
+    "score": 0.98
+  },
+  {
+    "path": "/document/fcc-assesses-nearly-300m-forfeiture-unlawful-robocalls/rosenworcel-statement",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-decides-snr-and-northstar-are-ineligible-bidding-credits/orielly-statement",
+    "score": 0.96
+  },
+  {
+    "path": "/document/fcc-decides-snr-and-northstar-are-ineligible-bidding-credits/pai-statement",
+    "score": 0.96
+  },
+  {
+    "path": "/document/fcc-decides-snr-and-northstar-are-ineligible-bidding-credits/starks-statement",
+    "score": 0.96
+  },
+  {
+    "path": "/document/fcc-imposes-record-fine-transnational-illegal-robocalling-operation",
+    "score": 0.96
+  },
+  {
+    "path": "/document/fcc-proposes-over-8m-fines-rural-broadband-auction-defaults/appendix-a",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-proposes-over-8m-fines-rural-broadband-auction-defaults/appendix-b",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-proposes-over-8m-fines-rural-broadband-auction-defaults/appendix-c",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-proposes-over-8m-fines-rural-broadband-auction-defaults/erratum",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fcc-proposes-over-8m-fines-rural-broadband-auction-defaults/starks-statement",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fema-and-fcc-plan-nationwide-emergency-alert-test-oct-4-2023/spanish-version",
+    "score": 0.95
+  },
+  {
+    "path": "/document/fy-2018-fcc-budget/summary",
+    "score": 0.96
+  },
+  {
+    "path": "/document/spectrum-usage-noi/rosenworcel-statement",
+    "score": 0.95
+  },
+  {
+    "path": "/document/spectrum-usage-noi/starks-statement",
+    "score": 0.95
+  },
+  {
+    "path": "/documents",
+    "score": 0.96
+  },
+  {
+    "path": "/dro",
+    "score": 0.94
+  },
+  {
+    "path": "/ecfs/",
+    "score": 0.96
+  },
+  {
+    "path": "/ecfs/browse-popular-proceedings",
+    "score": 0.93
+  },
+  {
+    "path": "/economics-analytics/auctions-division/auctions/about-form-175",
+    "score": 0.98
+  },
+  {
+    "path": "/economics-analytics/auctions-division/auctions/auction-maps",
+    "score": 0.95
+  },
+  {
+    "path": "/economics-analytics/auctions-division/auctions/auction-tracking-tools",
+    "score": 0.98
+  },
+  {
+    "path": "/economics-analytics/auctions-division/auctions/band-plans",
+    "score": 0.95
+  },
+  {
+    "path": "/economics-analytics/auctions-division/auctions/c-f-block-payment-information",
+    "score": 0.98
+  },
+  {
+    "path": "/edocs",
+    "score": 0.96
+  },
+  {
+    "path": "/enforcement",
+    "score": 0.96
+  },
+  {
+    "path": "/foia",
+    "score": 0.98
+  },
+  {
+    "path": "/general-counsel/general/attorney-honors-program",
+    "score": 0.98
+  },
+  {
+    "path": "/general/dro",
+    "score": 0.94
+  },
+  {
+    "path": "/general/eas-test-reporting-system",
+    "score": 0.93
+  },
+  {
+    "path": "/general/no-fear-act-data",
+    "score": 0.98
+  },
+  {
+    "path": "/general/open-government-fcc",
+    "score": 0.98
+  },
+  {
+    "path": "/general/public-safety-support-center",
+    "score": 0.98
+  },
+  {
+    "path": "/health",
+    "score": 0.94
+  },
+  {
+    "path": "/help/support-information-online-filing",
+    "score": 0.97
+  },
+  {
+    "path": "/honors-engineer-program",
+    "score": 0.98
+  },
+  {
+    "path": "/hospital-robocall-protection-group",
+    "score": 0.97
+  },
+  {
+    "path": "/inspector-general",
+    "score": 0.91
+  },
+  {
+    "path": "/items-on-circulation",
+    "score": 0.96
+  },
+  {
+    "path": "/july-2023-open-meeting-agenda",
+    "score": 0.98
+  },
+  {
+    "path": "/licensing",
+    "score": 0.96
+  },
+  {
+    "path": "/licensing-databases/commission-registration-system-fcc",
+    "score": 0.96
+  },
+  {
+    "path": "/licensing-databases/fcc-registration-commission-registration-system",
+    "score": 0.96
+  },
+  {
+    "path": "/licensing-databases/fcc-user-login",
+    "score": 0.94
+  },
+  {
+    "path": "/licensing-databases/fees",
+    "score": 0.96
+  },
+  {
+    "path": "/licensing-databases/forms",
+    "score": 0.93
+  },
+  {
+    "path": "/managing-director",
+    "score": 0.96
+  },
+  {
+    "path": "/media",
+    "score": 0.96
+  },
+  {
+    "path": "/media/policy/political-programming",
+    "score": 0.98
+  },
+  {
+    "path": "/media/television/childrens-educational-television-reporting-form-2100-schedule-h",
+    "score": 0.97
+  },
+  {
+    "path": "/network-outage-reporting-system-nors",
+    "score": 0.98
+  },
+  {
+    "path": "/news-events",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/blog",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/blog/guest-authors",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/events",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/events/2023/08/august-2023-open-commission-meeting",
+    "score": 0.94
+  },
+  {
+    "path": "/news-events/events/2023/08/technological-advisory-council-meeting-august-17-2023",
+    "score": 0.98
+  },
+  {
+    "path": "/news-events/events/2023/09/disability-advisory-committee-meeting",
+    "score": 0.98
+  },
+  {
+    "path": "/news-events/events/2023/09/september-2023-open-commission-meeting",
+    "score": 0.98
+  },
+  {
+    "path": "/news-events/events/archived",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/events/open-commission-meetings",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/headlines",
+    "score": 0.94
+  },
+  {
+    "path": "/news-events/headlines/509",
+    "score": 0.94
+  },
+  {
+    "path": "/news-events/notes",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/notes/2023/07/13/august-2023-open-meeting-agenda",
+    "score": 0.98
+  },
+  {
+    "path": "/news-events/notes/2023/08/02/most-important-part-internet-youve-probably-never-heard",
+    "score": 0.96
+  },
+  {
+    "path": "/news-events/podcast",
+    "score": 0.93
+  },
+  {
+    "path": "/office-inspector-general-hotline",
+    "score": 0.98
+  },
+  {
+    "path": "/offices-bureaus",
+    "score": 0.96
+  },
+  {
+    "path": "/pirate-database",
+    "score": 0.98
+  },
+  {
+    "path": "/plain-writing-fcc",
+    "score": 0.98
+  },
+  {
+    "path": "/previous-fcc-commissioners",
+    "score": 0.96
+  },
+  {
+    "path": "/privacy",
+    "score": 0.98
+  },
+  {
+    "path": "/privacy-and-data-protection-task-force",
+    "score": 0.96
+  },
+  {
+    "path": "/proceedings-actions",
+    "score": 0.94
+  },
+  {
+    "path": "/proceedings-actions/daily-digest",
+    "score": 0.96
+  },
+  {
+    "path": "/proceedings-actions/ex-parte",
+    "score": 0.98
+  },
+  {
+    "path": "/proceedings-actions/mergers-and-acquisitions",
+    "score": 0.98
+  },
+  {
+    "path": "/public-safety-and-homeland-security",
+    "score": 0.94
+  },
+  {
+    "path": "/quicktabs/nojs/auction_releases/0",
+    "score": 0.96
+  },
+  {
+    "path": "/quicktabs/nojs/auction_releases/1",
+    "score": 0.96
+  },
+  {
+    "path": "/rbap",
+    "score": 0.94
+  },
+  {
+    "path": "/reports-research",
+    "score": 0.94
+  },
+  {
+    "path": "/reports-research/data",
+    "score": 0.98
+  },
+  {
+    "path": "/reports-research/developers",
+    "score": 0.98
+  },
+  {
+    "path": "/reports-research/guides",
+    "score": 0.96
+  },
+  {
+    "path": "/reports-research/maps",
+    "score": 0.82
+  },
+  {
+    "path": "/reports-research/reports",
+    "score": 0.96
+  },
+  {
+    "path": "/rulemaking/most-active-proceedings",
+    "score": 0.96
+  },
+  {
+    "path": "/space",
+    "score": 0.96
+  },
+  {
+    "path": "/spoofed-robocalls",
+    "score": 0.98
+  },
+  {
+    "path": "/summary-listing-documents-addressing-application-rule-prohibiting-certain-communications",
+    "score": 0.98
+  },
+  {
+    "path": "/tags/accessibility-and-disability",
+    "score": 0.95
+  },
+  {
+    "path": "/tags/constituencies",
+    "score": 0.95
+  },
+  {
+    "path": "/tags/licensing-registration",
+    "score": 0.95
+  },
+  {
+    "path": "/task-force-prevent-digital-discrimination",
+    "score": 0.96
+  },
+  {
+    "path": "/task-force-reviewing-connectivity-and-technology-needs-precision-agriculture-united-states",
+    "score": 0.97
+  },
+  {
+    "path": "/telehealth",
+    "score": 0.98
+  },
+  {
+    "path": "/TRACEDAct",
+    "score": 0.98
+  },
+  {
+    "path": "/tribal-lands-bidding-credits",
+    "score": 0.98
+  },
+  {
+    "path": "/uls",
+    "score": 0.94
+  },
+  {
+    "path": "/visiting-fcc-facilities",
+    "score": 0.97
+  },
+  {
+    "path": "/vulnerability-disclosure-policy",
+    "score": 0.98
+  },
+  {
+    "path": "/wireless-telecommunications",
+    "score": 0.96
+  },
+  {
+    "path": "/wireless/auction-1000",
+    "score": 0.98
+  },
+  {
+    "path": "/wireless/bureau-divisions/mobility-division/amateur-radio-service",
+    "score": 0.98
+  },
+  {
+    "path": "/wireline-competition",
+    "score": 0.96
+  }
+]
