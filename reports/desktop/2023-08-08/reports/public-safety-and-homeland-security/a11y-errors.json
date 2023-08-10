@@ -1,0 +1,287 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-128-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV,1,UL,0,LI,0,A",
+            "selector": "div.block > ul#block-additionallinks > li.quick-link > a",
+            "boundingRect": {
+              "top": 1407,
+              "bottom": 1448,
+              "left": 174,
+              "right": 321,
+              "width": 147,
+              "height": 41
+            },
+            "snippet": "<a href=\"https://www.fcc.gov/cefs\">",
+            "nodeLabel": "CALEA Electronic Filing System (CEFS)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #2c75d6, background color: #f0f8ff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-255-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV",
+                  "selector": "main#ae-skip-to-content > div.row > aside.col-12 > div.block",
+                  "boundingRect": {
+                    "top": 1288,
+                    "bottom": 1772,
+                    "left": 153,
+                    "right": 391,
+                    "width": 239,
+                    "height": 484
+                  },
+                  "snippet": "<div class=\"block block--additionallinks quick-links box-shadow blue\">",
+                  "nodeLabel": "Reporting, Licensing & Data\nCALEA Electronic Filing System (CEFS)\nDisaster Info…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV,1,UL,1,LI,0,A",
+            "selector": "div.block > ul#block-additionallinks > li.quick-link > a",
+            "boundingRect": {
+              "top": 1465,
+              "bottom": 1507,
+              "left": 174,
+              "right": 334,
+              "width": 160,
+              "height": 41
+            },
+            "snippet": "<a href=\"/general/disaster-information-reporting-system-dirs-0\">",
+            "nodeLabel": "Disaster Information Reporting System (DIRS)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #2c75d6, background color: #f0f8ff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-255-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV",
+                  "selector": "main#ae-skip-to-content > div.row > aside.col-12 > div.block",
+                  "boundingRect": {
+                    "top": 1288,
+                    "bottom": 1772,
+                    "left": 153,
+                    "right": 391,
+                    "width": 239,
+                    "height": 484
+                  },
+                  "snippet": "<div class=\"block block--additionallinks quick-links box-shadow blue\">",
+                  "nodeLabel": "Reporting, Licensing & Data\nCALEA Electronic Filing System (CEFS)\nDisaster Info…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-130-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV,1,UL,2,LI,0,A",
+            "selector": "div.block > ul#block-additionallinks > li.quick-link > a",
+            "boundingRect": {
+              "top": 1524,
+              "bottom": 1565,
+              "left": 174,
+              "right": 351,
+              "width": 177,
+              "height": 41
+            },
+            "snippet": "<a href=\"/general/eas-test-reporting-system\">",
+            "nodeLabel": "EAS Test Reporting System (ETRS)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #2c75d6, background color: #f0f8ff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-255-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV",
+                  "selector": "main#ae-skip-to-content > div.row > aside.col-12 > div.block",
+                  "boundingRect": {
+                    "top": 1288,
+                    "bottom": 1772,
+                    "left": 153,
+                    "right": 391,
+                    "width": 239,
+                    "height": 484
+                  },
+                  "snippet": "<div class=\"block block--additionallinks quick-links box-shadow blue\">",
+                  "nodeLabel": "Reporting, Licensing & Data\nCALEA Electronic Filing System (CEFS)\nDisaster Info…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-131-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV,1,UL,3,LI,0,A",
+            "selector": "div.block > ul#block-additionallinks > li.quick-link > a",
+            "boundingRect": {
+              "top": 1583,
+              "bottom": 1624,
+              "left": 174,
+              "right": 349,
+              "width": 175,
+              "height": 41
+            },
+            "snippet": "<a href=\"https://www.fcc.gov/network-outage-reporting-system-nors#block-menu-block-4\">",
+            "nodeLabel": "Network Outage Reporting System (NORS)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #2c75d6, background color: #f0f8ff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-255-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV",
+                  "selector": "main#ae-skip-to-content > div.row > aside.col-12 > div.block",
+                  "boundingRect": {
+                    "top": 1288,
+                    "bottom": 1772,
+                    "left": 153,
+                    "right": 391,
+                    "width": 239,
+                    "height": 484
+                  },
+                  "snippet": "<div class=\"block block--additionallinks quick-links box-shadow blue\">",
+                  "nodeLabel": "Reporting, Licensing & Data\nCALEA Electronic Filing System (CEFS)\nDisaster Info…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-132-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV,1,UL,4,LI,0,A",
+            "selector": "div.block > ul#block-additionallinks > li.quick-link > a",
+            "boundingRect": {
+              "top": 1642,
+              "bottom": 1683,
+              "left": 174,
+              "right": 359,
+              "width": 185,
+              "height": 41
+            },
+            "snippet": "<a href=\"/general/public-safety-support-center\">",
+            "nodeLabel": "Public Safety Support Center (PSSC)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #2c75d6, background color: #f0f8ff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-255-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV",
+                  "selector": "main#ae-skip-to-content > div.row > aside.col-12 > div.block",
+                  "boundingRect": {
+                    "top": 1288,
+                    "bottom": 1772,
+                    "left": 153,
+                    "right": 391,
+                    "width": 239,
+                    "height": 484
+                  },
+                  "snippet": "<div class=\"block block--additionallinks quick-links box-shadow blue\">",
+                  "nodeLabel": "Reporting, Licensing & Data\nCALEA Electronic Filing System (CEFS)\nDisaster Info…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-133-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV,1,UL,5,LI,0,A",
+            "selector": "div.block > ul#block-additionallinks > li.quick-link > a",
+            "boundingRect": {
+              "top": 1700,
+              "bottom": 1742,
+              "left": 174,
+              "right": 349,
+              "width": 175,
+              "height": 41
+            },
+            "snippet": "<a href=\"http://wireless.fcc.gov/uls/index.htm?job=home\">",
+            "nodeLabel": "Universal Licensing System (ULS)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #2c75d6, background color: #f0f8ff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-255-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,ASIDE,2,DIV",
+                  "selector": "main#ae-skip-to-content > div.row > aside.col-12 > div.block",
+                  "boundingRect": {
+                    "top": 1288,
+                    "bottom": 1772,
+                    "left": 153,
+                    "right": 391,
+                    "width": 239,
+                    "height": 484
+                  },
+                  "snippet": "<div class=\"block block--additionallinks quick-links box-shadow blue\">",
+                  "nodeLabel": "Reporting, Licensing & Data\nCALEA Electronic Filing System (CEFS)\nDisaster Info…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

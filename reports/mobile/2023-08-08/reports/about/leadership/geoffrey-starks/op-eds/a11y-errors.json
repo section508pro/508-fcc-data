@@ -1,0 +1,507 @@
+[
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 21,
+              "bottom": 61,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-207-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,1,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 760,
+              "bottom": 777,
+              "left": 49,
+              "right": 170,
+              "width": 121,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "March 9, 2021 - CNN",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-209-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 862,
+              "bottom": 879,
+              "left": 49,
+              "right": 192,
+              "width": 143,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "August 10, 2020 - Blavity",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-210-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 987,
+              "bottom": 1004,
+              "left": 49,
+              "right": 186,
+              "width": 137,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "June 17, 2020 - Essence",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-211-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1133,
+              "bottom": 1150,
+              "left": 49,
+              "right": 245,
+              "width": 196,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "March 19, 2020 - New York Times",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-212-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1213,
+              "bottom": 1230,
+              "left": 49,
+              "right": 205,
+              "width": 156,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "October 22, 2019 - The Hill",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-213-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,6,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1293,
+              "bottom": 1310,
+              "left": 49,
+              "right": 288,
+              "width": 239,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "September 12, 2019 - The Mercury News",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-214-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,7,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1373,
+              "bottom": 1390,
+              "left": 49,
+              "right": 233,
+              "width": 184,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "July 25, 2019 - Orlando Sentinel",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-215-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,8,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1453,
+              "bottom": 1470,
+              "left": 49,
+              "right": 175,
+              "width": 126,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "July 1, 2019 - Nextgov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-216-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,9,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1533,
+              "bottom": 1550,
+              "left": 49,
+              "right": 182,
+              "width": 133,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "May 26, 2019 - The Hill",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-217-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,10,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1591,
+              "bottom": 1608,
+              "left": 49,
+              "right": 252,
+              "width": 203,
+              "height": 17
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "April 2, 2019 - The New York Times",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-208-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2521,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2521
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

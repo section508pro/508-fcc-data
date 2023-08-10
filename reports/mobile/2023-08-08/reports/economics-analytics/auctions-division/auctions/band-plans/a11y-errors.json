@@ -1,0 +1,447 @@
+[
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-137-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans",
+            "boundingRect": {
+              "top": 1243,
+              "bottom": 1243,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-139-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans",
+            "boundingRect": {
+              "top": 1364,
+              "bottom": 1364,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-140-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,3,DIV,0,A",
+            "selector": "div.page__body > div.singleColumn > div.row > a#Available Bandplans",
+            "boundingRect": {
+              "top": 1364,
+              "bottom": 1364,
+              "left": 12,
+              "right": 231,
+              "width": 219,
+              "height": 0
+            },
+            "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.row > a#Available Bandplans",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-142-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,3,DIV,2,A",
+            "selector": "div.page__body > div.singleColumn > div.row > a#Available Bandplans",
+            "boundingRect": {
+              "top": 1388,
+              "bottom": 1388,
+              "left": 12,
+              "right": 231,
+              "width": 219,
+              "height": 0
+            },
+            "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.row > a#Available Bandplans",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-143-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,3,DIV,3,DIV,0,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Available Bandplans",
+            "boundingRect": {
+              "top": 1388,
+              "bottom": 1388,
+              "left": 27,
+              "right": 27,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Available Bandplans",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-246-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,30,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "boundingRect": {
+              "top": 4894,
+              "bottom": 4894,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-248-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,32,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "boundingRect": {
+              "top": 5012,
+              "bottom": 5012,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-250-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,34,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "boundingRect": {
+              "top": 5048,
+              "bottom": 5048,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-251-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,35,DIV,0,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#Frequency Allocations",
+            "boundingRect": {
+              "top": 5050,
+              "bottom": 5069,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#Frequency Allocations",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 15,
+              "bottom": 55,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-137-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans",
+            "boundingRect": {
+              "top": 1243,
+              "bottom": 1243,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Available Bandplans"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-138-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,H2,0,A",
+                  "selector": "div.singleColumn > div.sectionHeadBox > h2 > a#Available Bandplans",
+                  "boundingRect": {
+                    "top": 1246,
+                    "bottom": 1329,
+                    "left": 12,
+                    "right": 220,
+                    "width": 208,
+                    "height": 83
+                  },
+                  "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Available Band Plans"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-139-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,A",
+                  "selector": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans",
+                  "boundingRect": {
+                    "top": 1364,
+                    "bottom": 1364,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Available Bandplans"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-140-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,3,DIV,0,A",
+                  "selector": "div.page__body > div.singleColumn > div.row > a#Available Bandplans",
+                  "boundingRect": {
+                    "top": 1364,
+                    "bottom": 1364,
+                    "left": 12,
+                    "right": 231,
+                    "width": 219,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Available Bandplans\" id=\"Available Bandplans\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page__body > div.singleColumn > div.row > a#Available Bandplans"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-246-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,30,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "boundingRect": {
+              "top": 4894,
+              "bottom": 4894,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Frequency Allocations"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-247-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,31,DIV,0,H2,0,A",
+                  "selector": "div.singleColumn > div.sectionHeadBox > h2 > a#Frequency Allocations",
+                  "boundingRect": {
+                    "top": 4939,
+                    "bottom": 4977,
+                    "left": 12,
+                    "right": 321,
+                    "width": 309,
+                    "height": 38
+                  },
+                  "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Frequency Allocations"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-248-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,32,A",
+                  "selector": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations",
+                  "boundingRect": {
+                    "top": 5012,
+                    "bottom": 5012,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Frequency Allocations"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-249-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,33,P,0,A",
+                  "selector": "div.page__body > div.singleColumn > p > a#Frequency Allocations",
+                  "boundingRect": {
+                    "top": 5013,
+                    "bottom": 5032,
+                    "left": 12,
+                    "right": 229,
+                    "width": 217,
+                    "height": 19
+                  },
+                  "snippet": "<a name=\"Frequency Allocations\" id=\"Frequency Allocations\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Provided by sites outside the FCC"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

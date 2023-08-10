@@ -1,0 +1,2885 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-295-UL",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL",
+            "selector": "nav > div.navbar > div.container > ul#menu-primary",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 76,
+              "left": 322,
+              "right": 892,
+              "width": 570,
+              "height": 76
+            },
+            "snippet": "<ul aria-hidden=\"true\" id=\"menu-primary\" class=\"nav navbar-nav nav-offcanvas-right\">",
+            "nodeLabel": "Browse by\nCATEGORY\n \nBrowse by\nBUREAUS & OFFICES",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-2-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL,0,LI,0,A",
+                  "selector": "div.container > ul#menu-primary > li.active > a",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 77,
+                    "left": 404,
+                    "right": 574,
+                    "width": 170,
+                    "height": 77
+                  },
+                  "snippet": "<a aria-controls=\"browse-by-category\" href=\"#browseCategory\" tabindex=\"10\">",
+                  "nodeLabel": "Browse by\nCATEGORY"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-3-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL,1,LI,0,A",
+                  "selector": "div.container > ul#menu-primary > li > a",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 77,
+                    "left": 578,
+                    "right": 809,
+                    "width": 231,
+                    "height": 77
+                  },
+                  "snippet": "<a class=\"\" href=\"#browseBureau\" tabindex=\"10\">",
+                  "nodeLabel": "Browse by\nBUREAUS & OFFICES"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-296-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,1,DIV",
+            "selector": "div.inner-container > header.site-header > nav > div.navbar-secondary",
+            "boundingRect": {
+              "top": 76,
+              "bottom": 140,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 64
+            },
+            "snippet": "<div aria-hidden=\"true\" class=\"navbar-secondary navbar-default yamm nav-offcanvas nav-offcanvas-right\">",
+            "nodeLabel": "About the FCC\n \nProceedings & Actions\n \nLicensing & Databases\n \nReports & Resea…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-4-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,1,DIV,0,DIV,0,DIV,0,UL,0,LI,0,A",
+                  "selector": "div#browse-by-category > ul#browseCategory > li > a",
+                  "boundingRect": {
+                    "top": 82,
+                    "bottom": 140,
+                    "left": 90,
+                    "right": 225,
+                    "width": 135,
+                    "height": 58
+                  },
+                  "snippet": "<a href=\"https://www.fcc.gov/about/overview\" tabindex=\"10\">",
+                  "nodeLabel": "About the FCC"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-5-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,1,DIV,0,DIV,0,DIV,0,UL,1,LI,0,A",
+                  "selector": "div#browse-by-category > ul#browseCategory > li > a",
+                  "boundingRect": {
+                    "top": 82,
+                    "bottom": 140,
+                    "left": 270,
+                    "right": 457,
+                    "width": 187,
+                    "height": 58
+                  },
+                  "snippet": "<a href=\"https://www.fcc.gov/proceedings-actions\" tabindex=\"10\">",
+                  "nodeLabel": "Proceedings & Actions"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-6-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,1,DIV,0,DIV,0,DIV,0,UL,2,LI,0,A",
+                  "selector": "div#browse-by-category > ul#browseCategory > li > a",
+                  "boundingRect": {
+                    "top": 82,
+                    "bottom": 140,
+                    "left": 502,
+                    "right": 692,
+                    "width": 190,
+                    "height": 58
+                  },
+                  "snippet": "<a href=\"https://www.fcc.gov/licensing\" tabindex=\"10\">",
+                  "nodeLabel": "Licensing & Databases"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-0-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,A",
+            "selector": "body.docs-collapsed-nav > div#skip-link > a.sr-only",
+            "boundingRect": {
+              "top": -1,
+              "bottom": 4,
+              "left": -1,
+              "right": 1349,
+              "width": 1350,
+              "height": 5
+            },
+            "snippet": "<a href=\"#main-content\" class=\"sr-only focusable\" tabindex=\"10\">",
+            "nodeLabel": "Jump to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-1-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,0,DIV,0,H1,0,A",
+            "selector": "div.container > div.navbar-header > h1.navbar-brand > a.navbar-logo",
+            "boundingRect": {
+              "top": 21,
+              "bottom": 59,
+              "left": 105,
+              "right": 280,
+              "width": 175,
+              "height": 38
+            },
+            "snippet": "<a href=\"http://fcc.gov\" class=\"navbar-logo\" tabindex=\"10\">",
+            "nodeLabel": "Federal Communications Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-22-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.col-sm-12 > div.pg-header > div.col-xs-6 > a.navbar-about",
+            "boundingRect": {
+              "top": 230,
+              "bottom": 250,
+              "left": 1206,
+              "right": 1245,
+              "width": 39,
+              "height": 20
+            },
+            "snippet": "<a class=\"navbar-about\" href=\"about.html\" tabindex=\"10\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-254-INPUT",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,INPUT",
+            "selector": "div.search-filters > div.col-xs-10 > div.search > input#txt-search",
+            "boundingRect": {
+              "top": 299,
+              "bottom": 333,
+              "left": 105,
+              "right": 427,
+              "width": 322,
+              "height": 34
+            },
+            "snippet": "<input id=\"txt-search\" type=\"text\" class=\"form-control\" placeholder=\"Find map...\" aria-label=\"Find map\" tabindex=\"20\">",
+            "nodeLabel": "Find map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-255-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,SPAN,0,BUTTON",
+            "selector": "div.col-xs-10 > div.search > span.input-group-btn > button#btn-search",
+            "boundingRect": {
+              "top": 299,
+              "bottom": 333,
+              "left": 426,
+              "right": 465,
+              "width": 39,
+              "height": 34
+            },
+            "snippet": "<button id=\"btn-search\" class=\"btn btn-default\" type=\"button\" aria-label=\"Find\" tabindex=\"20\">",
+            "nodeLabel": "Find",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-256-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,BUTTON",
+            "selector": "div.col-sm-12 > div.search-filters > div.col-xs-10 > button#btn-resetFilters",
+            "boundingRect": {
+              "top": 338,
+              "bottom": 359,
+              "left": 105,
+              "right": 155,
+              "width": 50,
+              "height": 21
+            },
+            "snippet": "<button id=\"btn-resetFilters\" class=\"btn-reset btn-link\" type=\"button\" tabindex=\"20\">",
+            "nodeLabel": "Clear all",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-257-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON",
+            "selector": "div.gallery-filters > div.gallery__filterOpts > div.map-status > button.btn",
+            "boundingRect": {
+              "top": 304,
+              "bottom": 334,
+              "left": 643,
+              "right": 679,
+              "width": 36,
+              "height": 30
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-default\" data-filter=\"all\" tabindex=\"20\">",
+            "nodeLabel": "All",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-258-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,BUTTON",
+            "selector": "div.gallery-filters > div.gallery__filterOpts > div.map-status > button.btn",
+            "boundingRect": {
+              "top": 304,
+              "bottom": 334,
+              "left": 678,
+              "right": 743,
+              "width": 65,
+              "height": 30
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-default active\" data-filter=\"current\" tabindex=\"20\">",
+            "nodeLabel": "Current",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-259-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,BUTTON",
+            "selector": "div.gallery-filters > div.gallery__filterOpts > div.map-status > button.btn",
+            "boundingRect": {
+              "top": 304,
+              "bottom": 334,
+              "left": 742,
+              "right": 815,
+              "width": 73,
+              "height": 30
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-default\" data-filter=\"feature\" tabindex=\"20\">",
+            "nodeLabel": "Featured",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-260-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,BUTTON",
+            "selector": "div.gallery-filters > div.gallery__filterOpts > div.map-status > button.btn",
+            "boundingRect": {
+              "top": 304,
+              "bottom": 334,
+              "left": 814,
+              "right": 878,
+              "width": 64,
+              "height": 30
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-default\" data-filter=\"archive\" tabindex=\"20\">",
+            "nodeLabel": "Archive",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-261-SELECT",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,SELECT",
+            "selector": "div.gallery-filters > div.gallery__filterOpts > div.form-inline > select#sel-filter",
+            "boundingRect": {
+              "top": 304,
+              "bottom": 334,
+              "left": 988,
+              "right": 1094,
+              "width": 106,
+              "height": 30
+            },
+            "snippet": "<select id=\"sel-filter\" class=\"form-control form-control-width-sm\" tabindex=\"20\">",
+            "nodeLabel": "All\nundefined",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-262-SELECT",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,3,SELECT",
+            "selector": "div.gallery-filters > div.gallery__filterOpts > div.form-inline > select#sel-sort",
+            "boundingRect": {
+              "top": 304,
+              "bottom": 334,
+              "left": 1138,
+              "right": 1235,
+              "width": 97,
+              "height": 30
+            },
+            "snippet": "<select id=\"sel-sort\" class=\"form-control form-control-width-sm\" tabindex=\"20\">",
+            "nodeLabel": "Newest\nOldest\nTitle (A-Z)\nTitle (Z-A)",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-297-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,2,DIV",
+            "selector": "main.container > div.grid-maps > div.col-sm-12 > div.gallery__numResults",
+            "boundingRect": {
+              "top": 374,
+              "bottom": 404,
+              "left": 105,
+              "right": 223,
+              "width": 118,
+              "height": 30
+            },
+            "snippet": "<div class=\"gallery__numResults\" tabindex=\"20\">",
+            "nodeLabel": "Showing: 32 maps",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-298-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,0,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 419,
+              "bottom": 667,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"110\" style=\"position: absolute; left: 0px; top: 0px;\">",
+            "nodeLabel": "View map\n\nTotal EBB & ACP Support by Geographic Region\n\n07/10/2023\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-23-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,0,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 429,
+              "bottom": 454,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"total-ebb-acp-support-by-geographic-region\" tabindex=\"110\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-24-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,0,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 579,
+              "bottom": 598,
+              "left": 115,
+              "right": 454,
+              "width": 339,
+              "height": 19
+            },
+            "snippet": "<a href=\"total-ebb-acp-support-by-geographic-region/\" tabindex=\"110\">",
+            "nodeLabel": "Total EBB & ACP Support by Geographic Region",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-263-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,0,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 635,
+              "bottom": 657,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"110\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-299-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,1,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 419,
+              "bottom": 667,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"121\" style=\"position: absolute; left: 290px; top: 0px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nNational Broadband Map\n\n06/21/2023\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-27-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,1,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 429,
+              "bottom": 454,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"national-broadband-map\" tabindex=\"121\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-28-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,1,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 579,
+              "bottom": 598,
+              "left": 405,
+              "right": 584,
+              "width": 179,
+              "height": 19
+            },
+            "snippet": "<a href=\"national-broadband-map/\" tabindex=\"121\">",
+            "nodeLabel": "National Broadband Map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-264-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,1,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 635,
+              "bottom": 657,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"121\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-300-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,2,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 419,
+              "bottom": 667,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"133\" style=\"position: absolute; left: 580px; top: 0px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nConnect2HealthFCC\n\n06/20/2023\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-30-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,2,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 429,
+              "bottom": 454,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"connect2health\" tabindex=\"133\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-31-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,2,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 579,
+              "bottom": 598,
+              "left": 695,
+              "right": 836,
+              "width": 141,
+              "height": 19
+            },
+            "snippet": "<a href=\"connect2health/\" tabindex=\"133\">",
+            "nodeLabel": "Connect2HealthFCC",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-265-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,2,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 635,
+              "bottom": 657,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"133\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-301-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,3,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 419,
+              "bottom": 667,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"146\" style=\"position: absolute; left: 870px; top: 0px;\">",
+            "nodeLabel": "View map\n\nResidential Fixed Internet Access Service Connections per 1000 Househ…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-33-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,3,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 429,
+              "bottom": 454,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"tract-level-residential-fixed-connections-jun-2019\" tabindex=\"146\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-34-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,3,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 579,
+              "bottom": 598,
+              "left": 985,
+              "right": 1731,
+              "width": 746,
+              "height": 19
+            },
+            "snippet": "<a href=\"tract-level-residential-fixed-connections-jun-2019/\" tabindex=\"146\">",
+            "nodeLabel": "Residential Fixed Internet Access Service Connections per 1000 Households by Ce…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-266-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,3,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 635,
+              "bottom": 657,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"146\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-302-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,4,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 687,
+              "bottom": 935,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"160\" style=\"position: absolute; left: 0px; top: 268px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nFixed Broadband Deployment\n\n08/25/2022\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-38-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,4,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 697,
+              "bottom": 722,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"fixed-broadband-deployment\" tabindex=\"160\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-39-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,4,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 847,
+              "bottom": 866,
+              "left": 115,
+              "right": 326,
+              "width": 211,
+              "height": 19
+            },
+            "snippet": "<a href=\"fixed-broadband-deployment/\" tabindex=\"160\">",
+            "nodeLabel": "Fixed Broadband Deployment",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-267-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,4,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 925,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"160\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-303-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,5,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 687,
+              "bottom": 935,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"175\" style=\"position: absolute; left: 290px; top: 268px;\">",
+            "nodeLabel": "View map\n\nEmergency Connectivity Fund Program Demand by State\n\n05/25/2022\nView …",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-42-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,5,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 697,
+              "bottom": 722,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"ecf-state-demand\" tabindex=\"175\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-43-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,5,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 847,
+              "bottom": 866,
+              "left": 405,
+              "right": 815,
+              "width": 410,
+              "height": 19
+            },
+            "snippet": "<a href=\"ecf-state-demand/\" tabindex=\"175\">",
+            "nodeLabel": "Emergency Connectivity Fund Program Demand by State",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-268-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,5,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 925,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"175\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-304-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,6,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 687,
+              "bottom": 935,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"191\" style=\"position: absolute; left: 580px; top: 268px;\">",
+            "nodeLabel": "View map\n\nStudy Area Boundaries\n\n05/23/2022\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-47-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,6,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 697,
+              "bottom": 722,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"study-area-boundaries\" tabindex=\"191\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-48-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,6,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 847,
+              "bottom": 866,
+              "left": 695,
+              "right": 859,
+              "width": 164,
+              "height": 19
+            },
+            "snippet": "<a href=\"study-area-boundaries/\" tabindex=\"191\">",
+            "nodeLabel": "Study Area Boundaries",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-269-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,6,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 925,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"191\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-305-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,7,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 687,
+              "bottom": 935,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"245\" style=\"position: absolute; left: 870px; top: 268px;\">",
+            "nodeLabel": "View map\n\nFCC Enforcement Actions Against Pirate Radio by Location\n\n06/16/2021\n…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-53-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,7,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 697,
+              "bottom": 722,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"fcc-enforcement-actions-against-pirate-radio-location\" tabindex=\"245\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-54-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,7,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 847,
+              "bottom": 866,
+              "left": 985,
+              "right": 1409,
+              "width": 424,
+              "height": 19
+            },
+            "snippet": "<a href=\"fcc-enforcement-actions-against-pirate-radio-location/\" tabindex=\"245\">",
+            "nodeLabel": "FCC Enforcement Actions Against Pirate Radio by Location",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-270-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,7,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 903,
+              "bottom": 925,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"245\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-306-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,8,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 955,
+              "bottom": 1203,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"265\" style=\"position: absolute; left: 0px; top: 536px;\">",
+            "nodeLabel": "View map\n\nRural Digital Opportunity Fund Phase I Results\n\n12/07/2020\nView detai…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-56-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,8,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 990,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"rdof-phase-i-dec-2020\" tabindex=\"265\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-57-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,8,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1115,
+              "bottom": 1134,
+              "left": 115,
+              "right": 448,
+              "width": 333,
+              "height": 19
+            },
+            "snippet": "<a href=\"rdof-phase-i-dec-2020/\" tabindex=\"265\">",
+            "nodeLabel": "Rural Digital Opportunity Fund Phase I Results",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-271-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,8,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1171,
+              "bottom": 1193,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"265\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-307-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,9,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 955,
+              "bottom": 1203,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"461\" style=\"position: absolute; left: 290px; top: 536px;\">",
+            "nodeLabel": "View map\n\nAuction 904 Final Eligible Areas\n\n10/08/2020\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-71-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,9,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 990,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"auction-904-final-8oct20-eligible-areas\" tabindex=\"461\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-72-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,9,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1115,
+              "bottom": 1134,
+              "left": 405,
+              "right": 628,
+              "width": 223,
+              "height": 19
+            },
+            "snippet": "<a href=\"auction-904-final-8oct20-eligible-areas/\" tabindex=\"461\">",
+            "nodeLabel": "Auction 904 Final Eligible Areas",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-272-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,9,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1171,
+              "bottom": 1193,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"461\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-308-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,10,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 955,
+              "bottom": 1203,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"650\" style=\"position: absolute; left: 580px; top: 536px;\">",
+            "nodeLabel": "View map\n\n5G Fund Option A Eligibility Analysis\n\n04/09/2020\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-81-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,10,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 990,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"5g-fund-option-a-eligibility-analysis\" tabindex=\"650\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-82-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,10,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1115,
+              "bottom": 1134,
+              "left": 695,
+              "right": 952,
+              "width": 257,
+              "height": 19
+            },
+            "snippet": "<a href=\"5g-fund-option-a-eligibility-analysis/\" tabindex=\"650\">",
+            "nodeLabel": "5G Fund Option A Eligibility Analysis",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-273-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,10,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1171,
+              "bottom": 1193,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"650\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-309-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,11,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 955,
+              "bottom": 1203,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"685\" style=\"position: absolute; left: 870px; top: 536px;\">",
+            "nodeLabel": "View map\n\nLTE Coverage by Number of Providers - YE 2018\n\n02/20/2020\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-84-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,11,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 990,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"lte-coverage-number-providers-ye-2018\" tabindex=\"685\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-85-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,11,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1115,
+              "bottom": 1134,
+              "left": 985,
+              "right": 1325,
+              "width": 340,
+              "height": 19
+            },
+            "snippet": "<a href=\"lte-coverage-number-providers-ye-2018/\" tabindex=\"685\">",
+            "nodeLabel": "LTE Coverage by Number of Providers - YE 2018",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-274-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,11,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1171,
+              "bottom": 1193,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"685\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-310-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,12,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1223,
+              "bottom": 1471,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"721\" style=\"position: absolute; left: 0px; top: 804px;\">",
+            "nodeLabel": "View map\n\nMobility Fund Phase II Investigation Staff Report Map\n\n12/04/2019\nVie…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,12,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1233,
+              "bottom": 1258,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"mobility-fund-phase-ii-investigation-staff-report-map\" tabindex=\"721\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-88-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,12,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1383,
+              "bottom": 1402,
+              "left": 115,
+              "right": 499,
+              "width": 384,
+              "height": 19
+            },
+            "snippet": "<a href=\"mobility-fund-phase-ii-investigation-staff-report-map/\" tabindex=\"721\">",
+            "nodeLabel": "Mobility Fund Phase II Investigation Staff Report Map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-275-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,12,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1439,
+              "bottom": 1461,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"721\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-311-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,13,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1223,
+              "bottom": 1471,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"758\" style=\"position: absolute; left: 290px; top: 804px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nConnect America Fund Phase II: Auction 903 Results\n\n04/04/20…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-91-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,13,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1233,
+              "bottom": 1258,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"caf-ii-auction-results-april-2019\" tabindex=\"758\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-92-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,13,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1383,
+              "bottom": 1402,
+              "left": 405,
+              "right": 777,
+              "width": 372,
+              "height": 19
+            },
+            "snippet": "<a href=\"caf-ii-auction-results-april-2019/\" tabindex=\"758\">",
+            "nodeLabel": "Connect America Fund Phase II: Auction 903 Results",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-276-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,13,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1439,
+              "bottom": 1461,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"758\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-312-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,14,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1223,
+              "bottom": 1471,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1136\" style=\"position: absolute; left: 580px; top: 804px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nNationwide LTE Coverage - YE 2017\n\n12/21/2018\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-108-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,14,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1233,
+              "bottom": 1258,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"nationwide-lte-coverage-ye-2017\" tabindex=\"1136\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-109-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,14,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1383,
+              "bottom": 1402,
+              "left": 695,
+              "right": 947,
+              "width": 252,
+              "height": 19
+            },
+            "snippet": "<a href=\"nationwide-lte-coverage-ye-2017/\" tabindex=\"1136\">",
+            "nodeLabel": "Nationwide LTE Coverage - YE 2017",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-277-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,14,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1439,
+              "bottom": 1461,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1136\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-313-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,15,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1223,
+              "bottom": 1471,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1183\" style=\"position: absolute; left: 870px; top: 804px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nNationwide Mobile Wireless Coverage - YE 2017\n\n12/21/2018\nVi…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-111-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,15,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1233,
+              "bottom": 1258,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"nationwide-mobile-wireless-coverage-ye-2017\" tabindex=\"1183\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-112-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,15,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1383,
+              "bottom": 1402,
+              "left": 985,
+              "right": 1325,
+              "width": 340,
+              "height": 19
+            },
+            "snippet": "<a href=\"nationwide-mobile-wireless-coverage-ye-2017/\" tabindex=\"1183\">",
+            "nodeLabel": "Nationwide Mobile Wireless Coverage - YE 2017",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-278-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,15,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1439,
+              "bottom": 1461,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1183\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-314-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,16,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1492,
+              "bottom": 1740,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1231\" style=\"position: absolute; left: 0px; top: 1073px;\">",
+            "nodeLabel": "View map\n\nLTE Coverage by Number of Providers - YE 2017\n\n12/20/2018\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-114-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,16,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1502,
+              "bottom": 1527,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"lte-coverage-number-providers-ye-2017\" tabindex=\"1231\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-115-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,16,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1652,
+              "bottom": 1671,
+              "left": 115,
+              "right": 455,
+              "width": 340,
+              "height": 19
+            },
+            "snippet": "<a href=\"lte-coverage-number-providers-ye-2017/\" tabindex=\"1231\">",
+            "nodeLabel": "LTE Coverage by Number of Providers - YE 2017",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-279-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,16,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1708,
+              "bottom": 1730,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1231\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-315-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,17,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1492,
+              "bottom": 1740,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1280\" style=\"position: absolute; left: 290px; top: 1073px;\">",
+            "nodeLabel": "View map\nFEATURED\n\n100% Overlap 2017\n\n08/07/2018\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-117-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,17,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1502,
+              "bottom": 1527,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"100pct-overlap-2017\" tabindex=\"1280\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-118-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,17,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1652,
+              "bottom": 1671,
+              "left": 405,
+              "right": 539,
+              "width": 134,
+              "height": 19
+            },
+            "snippet": "<a href=\"100pct-overlap-2017/\" tabindex=\"1280\">",
+            "nodeLabel": "100% Overlap 2017",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-280-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,17,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1708,
+              "bottom": 1730,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1280\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-316-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,18,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1492,
+              "bottom": 1740,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1330\" style=\"position: absolute; left: 580px; top: 1073px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nMobility Fund II Initial Eligible Areas Map\n\n08/01/2018\nView…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-126-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,18,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1502,
+              "bottom": 1527,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"mobility-fund-ii-initial-eligible-areas-map\" tabindex=\"1330\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-127-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,18,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1652,
+              "bottom": 1671,
+              "left": 695,
+              "right": 985,
+              "width": 290,
+              "height": 19
+            },
+            "snippet": "<a href=\"mobility-fund-ii-initial-eligible-areas-map/\" tabindex=\"1330\">",
+            "nodeLabel": "Mobility Fund II Initial Eligible Areas Map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-281-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,18,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1708,
+              "bottom": 1730,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1330\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-317-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,19,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1492,
+              "bottom": 1740,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1381\" style=\"position: absolute; left: 870px; top: 1073px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nDTV Reception Maps\n\n06/11/2018\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-130-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,19,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1502,
+              "bottom": 1527,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"dtv-maps\" tabindex=\"1381\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-131-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,19,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1652,
+              "bottom": 1671,
+              "left": 985,
+              "right": 1134,
+              "width": 149,
+              "height": 19
+            },
+            "snippet": "<a href=\"dtv-maps/\" tabindex=\"1381\">",
+            "nodeLabel": "DTV Reception Maps",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-282-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,19,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1708,
+              "bottom": 1730,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1381\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-318-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,20,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1760,
+              "bottom": 2008,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1433\" style=\"position: absolute; left: 0px; top: 1341px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nLTE Coverage by Number of Providers - YE 2016\n\n09/27/2017\nVi…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-136-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,20,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1770,
+              "bottom": 1795,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"lte-coverage-number-providers-ye-2016\" tabindex=\"1433\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-137-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,20,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1920,
+              "bottom": 1939,
+              "left": 115,
+              "right": 455,
+              "width": 340,
+              "height": 19
+            },
+            "snippet": "<a href=\"lte-coverage-number-providers-ye-2016/\" tabindex=\"1433\">",
+            "nodeLabel": "LTE Coverage by Number of Providers - YE 2016",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-283-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,20,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1976,
+              "bottom": 1998,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1433\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-319-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,21,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1760,
+              "bottom": 2008,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1486\" style=\"position: absolute; left: 290px; top: 1341px;\">",
+            "nodeLabel": "View map\nFEATURED\n\nNationwide LTE Coverage - YE 2016\n\n09/27/2017\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-140-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,21,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1770,
+              "bottom": 1795,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"nationwide-lte-coverage-ye-2016\" tabindex=\"1486\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-141-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,21,LI,3,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1920,
+              "bottom": 1939,
+              "left": 405,
+              "right": 657,
+              "width": 252,
+              "height": 19
+            },
+            "snippet": "<a href=\"nationwide-lte-coverage-ye-2016/\" tabindex=\"1486\">",
+            "nodeLabel": "Nationwide LTE Coverage - YE 2016",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-284-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,21,LI,6,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1976,
+              "bottom": 1998,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1486\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-320-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,22,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1760,
+              "bottom": 2008,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1540\" style=\"position: absolute; left: 580px; top: 1341px;\">",
+            "nodeLabel": "View map\n\n3G or Better Coverage by Number of Providers-YE 2016\n\n09/27/2017\nView…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-144-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,22,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1770,
+              "bottom": 1795,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"3gorbetter-number-providers-ye-2016\" tabindex=\"1540\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-145-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,22,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1920,
+              "bottom": 1939,
+              "left": 695,
+              "right": 1089,
+              "width": 394,
+              "height": 19
+            },
+            "snippet": "<a href=\"3gorbetter-number-providers-ye-2016/\" tabindex=\"1540\">",
+            "nodeLabel": "3G or Better Coverage by Number of Providers-YE 2016",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-285-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,22,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1976,
+              "bottom": 1998,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1540\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-321-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,23,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 1760,
+              "bottom": 2008,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1595\" style=\"position: absolute; left: 870px; top: 1341px;\">",
+            "nodeLabel": "View map\n\nNationwide Mobile Wireless Coverage - YE 2016\n\n09/27/2017\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-148-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,23,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 1770,
+              "bottom": 1795,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"nationwide-mobile-wireless-coverage-ye-2016\" tabindex=\"1595\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-149-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,23,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 1920,
+              "bottom": 1939,
+              "left": 985,
+              "right": 1325,
+              "width": 340,
+              "height": 19
+            },
+            "snippet": "<a href=\"nationwide-mobile-wireless-coverage-ye-2016/\" tabindex=\"1595\">",
+            "nodeLabel": "Nationwide Mobile Wireless Coverage - YE 2016",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-286-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,23,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 1976,
+              "bottom": 1998,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1595\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-322-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,24,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2028,
+              "bottom": 2276,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1651\" style=\"position: absolute; left: 0px; top: 1609px;\">",
+            "nodeLabel": "View map\n\nConnect America Phase II Auction\n\n08/10/2016\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-152-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,24,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2038,
+              "bottom": 2063,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"caf-2-auction-preliminary-areas\" tabindex=\"1651\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-153-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,24,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2188,
+              "bottom": 2207,
+              "left": 115,
+              "right": 359,
+              "width": 244,
+              "height": 19
+            },
+            "snippet": "<a href=\"caf-2-auction-preliminary-areas/\" tabindex=\"1651\">",
+            "nodeLabel": "Connect America Phase II Auction",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-287-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,24,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2244,
+              "bottom": 2266,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1651\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-323-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,25,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2028,
+              "bottom": 2276,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"1708\" style=\"position: absolute; left: 290px; top: 1609px;\">",
+            "nodeLabel": "View map\n\nA-CAM Offer Map\n\n08/03/2016\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-159-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,25,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2038,
+              "bottom": 2063,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"a-cam-offer-map\" tabindex=\"1708\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-160-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,25,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2188,
+              "bottom": 2207,
+              "left": 405,
+              "right": 529,
+              "width": 124,
+              "height": 19
+            },
+            "snippet": "<a href=\"a-cam-offer-map/\" tabindex=\"1708\">",
+            "nodeLabel": "A-CAM Offer Map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-288-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,25,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2244,
+              "bottom": 2266,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"1708\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-324-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,26,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2028,
+              "bottom": 2276,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"2135\" style=\"position: absolute; left: 580px; top: 1609px;\">",
+            "nodeLabel": "View map\n\nFrequency Coordination with Canada Below 470 MHz\n\n06/08/2016\nView det…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-165-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,26,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2038,
+              "bottom": 2063,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"frequency-coordination-canada\" tabindex=\"2135\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-166-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,26,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2188,
+              "bottom": 2207,
+              "left": 695,
+              "right": 1070,
+              "width": 375,
+              "height": 19
+            },
+            "snippet": "<a href=\"frequency-coordination-canada/\" tabindex=\"2135\">",
+            "nodeLabel": "Frequency Coordination with Canada Below 470 MHz",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-289-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,26,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2244,
+              "bottom": 2266,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"2135\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-325-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,27,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2028,
+              "bottom": 2276,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"2200\" style=\"position: absolute; left: 870px; top: 1609px;\">",
+            "nodeLabel": "View map\n\nFCC AM Revitalization Channel Finder\n\n05/26/2016\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-169-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,27,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2038,
+              "bottom": 2063,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"amr-channel-finder\" tabindex=\"2200\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-170-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,27,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2188,
+              "bottom": 2207,
+              "left": 985,
+              "right": 1251,
+              "width": 266,
+              "height": 19
+            },
+            "snippet": "<a href=\"amr-channel-finder/\" tabindex=\"2200\">",
+            "nodeLabel": "FCC AM Revitalization Channel Finder",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-290-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,27,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2244,
+              "bottom": 2266,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"2200\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-326-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,28,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2296,
+              "bottom": 2544,
+              "left": 105,
+              "right": 375,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"2266\" style=\"position: absolute; left: 0px; top: 1877px;\">",
+            "nodeLabel": "View map\n\nNumber of Residential Fixed Broadband Providers at 25 Mbps/3 Mbps\n\n01…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-172-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,28,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2306,
+              "bottom": 2331,
+              "left": 341,
+              "right": 365,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"bpr-2016-fixed-25mbps-3mbps-providers\" tabindex=\"2266\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-173-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,28,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2456,
+              "bottom": 2475,
+              "left": 115,
+              "right": 613,
+              "width": 498,
+              "height": 19
+            },
+            "snippet": "<a href=\"bpr-2016-fixed-25mbps-3mbps-providers/\" tabindex=\"2266\">",
+            "nodeLabel": "Number of Residential Fixed Broadband Providers at 25 Mbps/3 Mbps",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-291-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,28,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2512,
+              "bottom": 2534,
+              "left": 115,
+              "right": 203,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"2266\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-327-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,29,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2296,
+              "bottom": 2544,
+              "left": 395,
+              "right": 665,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"2333\" style=\"position: absolute; left: 290px; top: 1877px;\">",
+            "nodeLabel": "View map\n\nResidential Fixed 25 Mbps/3 Mbps Broadband Deployment\n\n01/29/2016\nVie…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-176-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,29,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2306,
+              "bottom": 2331,
+              "left": 631,
+              "right": 655,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"bpr-2016-fixed-25mbps-3mbps-deployment\" tabindex=\"2333\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-177-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,29,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2456,
+              "bottom": 2475,
+              "left": 405,
+              "right": 821,
+              "width": 416,
+              "height": 19
+            },
+            "snippet": "<a href=\"bpr-2016-fixed-25mbps-3mbps-deployment/\" tabindex=\"2333\">",
+            "nodeLabel": "Residential Fixed 25 Mbps/3 Mbps Broadband Deployment",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-292-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,29,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2512,
+              "bottom": 2534,
+              "left": 405,
+              "right": 493,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"2333\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-328-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,30,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2296,
+              "bottom": 2544,
+              "left": 685,
+              "right": 955,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"2401\" style=\"position: absolute; left: 580px; top: 1877px;\">",
+            "nodeLabel": "View map\n\nResidential Fixed Broadband Technology at 25 Mbps/3 Mbps\n\n01/29/2016\n…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-180-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,30,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2306,
+              "bottom": 2331,
+              "left": 921,
+              "right": 945,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"bpr-2016-fixed-25mbps-3mbps-technology\" tabindex=\"2401\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-181-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,30,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2456,
+              "bottom": 2475,
+              "left": 695,
+              "right": 1128,
+              "width": 433,
+              "height": 19
+            },
+            "snippet": "<a href=\"bpr-2016-fixed-25mbps-3mbps-technology/\" tabindex=\"2401\">",
+            "nodeLabel": "Residential Fixed Broadband Technology at 25 Mbps/3 Mbps",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-293-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,30,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2512,
+              "bottom": 2534,
+              "left": 695,
+              "right": 783,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"2401\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-329-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,31,LI",
+            "selector": "div.grid-maps > div.col-sm-12 > ul#map-list-holder > li.card",
+            "boundingRect": {
+              "top": 2296,
+              "bottom": 2544,
+              "left": 975,
+              "right": 1245,
+              "width": 270,
+              "height": 248
+            },
+            "snippet": "<li class=\"card\" tabindex=\"2470\" style=\"position: absolute; left: 870px; top: 1877px;\">",
+            "nodeLabel": "View map\n\nResidential Fixed Broadband by Speed\n\n01/29/2016\nView details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-184-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,31,LI,0,DIV,0,A",
+            "selector": "ul#map-list-holder > li.card > div.mapThumb-btns > a.btn",
+            "boundingRect": {
+              "top": 2306,
+              "bottom": 2331,
+              "left": 1211,
+              "right": 1235,
+              "width": 24,
+              "height": 25
+            },
+            "snippet": "<a class=\"btn btn-xs btn-default\" href=\"bpr-2016-fixed-speed\" tabindex=\"2470\">",
+            "nodeLabel": "View map",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-185-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,31,LI,2,P,0,A",
+            "selector": "ul#map-list-holder > li.card > p.card__title > a",
+            "boundingRect": {
+              "top": 2456,
+              "bottom": 2475,
+              "left": 985,
+              "right": 1258,
+              "width": 273,
+              "height": 19
+            },
+            "snippet": "<a href=\"bpr-2016-fixed-speed/\" tabindex=\"2470\">",
+            "nodeLabel": "Residential Fixed Broadband by Speed",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-294-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,MAIN,1,DIV,0,DIV,4,UL,31,LI,5,DIV,0,BUTTON",
+            "selector": "ul#map-list-holder > li.card > div.card__footer > button.btn-details",
+            "boundingRect": {
+              "top": 2512,
+              "bottom": 2534,
+              "left": 985,
+              "right": 1073,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<button class=\"btn-details btn btn-link btn-xs\" type=\"button\" aria-expanded=\"false\" tabindex=\"2470\">",
+            "nodeLabel": "View details",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 141
+  }
+]

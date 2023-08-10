@@ -1,0 +1,190 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-302-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,P",
+            "selector": "div.card-body > div.content > div.component-card__field-card-body > p",
+            "boundingRect": {
+              "top": 263,
+              "bottom": 300,
+              "left": 519,
+              "right": 901,
+              "width": 382,
+              "height": 37
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Help for households to afford the broadband they need for work, school, healthc…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 11.5pt (15.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-303-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-landing_page",
+                  "boundingRect": {
+                    "top": -3,
+                    "bottom": 3256,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 3259
+                  },
+                  "snippet": "<body class=\"page-node-landing_page page-node-1 layout-two-sidebars path-frontpage page…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-landing_page"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-200-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,2,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,A",
+            "selector": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "boundingRect": {
+              "top": 1603,
+              "bottom": 1622,
+              "left": 155,
+              "right": 210,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"/about/leadership/jessica-rosenworcel\" hreflang=\"und\">",
+            "nodeLabel": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-202-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,2,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,A",
+            "selector": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "boundingRect": {
+              "top": 1679,
+              "bottom": 1698,
+              "left": 155,
+              "right": 210,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"/about/leadership/brendan-carr\" hreflang=\"und\">",
+            "nodeLabel": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-204-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,2,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,0,DIV,0,A",
+            "selector": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "boundingRect": {
+              "top": 1755,
+              "bottom": 1774,
+              "left": 155,
+              "right": 210,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"/about/leadership/geoffrey-starks\" hreflang=\"und\">",
+            "nodeLabel": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-206-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,2,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,0,A",
+            "selector": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "boundingRect": {
+              "top": 1831,
+              "bottom": 1850,
+              "left": 155,
+              "right": 210,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"/about/leadership/nathan-simington\" hreflang=\"und\">",
+            "nodeLabel": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-123-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,2,P,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > p > a#top",
+            "boundingRect": {
+              "top": 806,
+              "bottom": 806,
+              "left": 175,
+              "right": 175,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"top\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > p > a#top",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-123-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,2,P,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > p > a#top",
+            "boundingRect": {
+              "top": 806,
+              "bottom": 806,
+              "left": 175,
+              "right": 175,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"top\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > p > a#top",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: top"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-230-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,4,P,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > p > a#top",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"top\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page__body > div.jquery-ui-filter-tabs-0-source > p > a#top"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,6,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > h4 > a#ETRS Filings",
+            "boundingRect": {
+              "top": 1006,
+              "bottom": 1026,
+              "left": 175,
+              "right": 483,
+              "width": 308,
+              "height": 20
+            },
+            "snippet": "<a id=\"ETRS Filings\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "EAS Test Reporting System (ETRS) Filings",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: ETRS Filings"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-236-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,8,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#ETRS Filings",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"ETRS Filings\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "EAS Test Reporting System (ETRS) Filings"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-139-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,18,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > h4 > a#ETRS Login",
+            "boundingRect": {
+              "top": 1612,
+              "bottom": 1632,
+              "left": 175,
+              "right": 256,
+              "width": 81,
+              "height": 20
+            },
+            "snippet": "<a id=\"ETRS Login\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "ETRS Login",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: ETRS Login"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-246-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,21,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#ETRS Login",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"ETRS Login\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "ETRS Login"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-144-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,20,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > h4 > a#ETRS Description",
+            "boundingRect": {
+              "top": 1887,
+              "bottom": 1907,
+              "left": 175,
+              "right": 302,
+              "width": 127,
+              "height": 20
+            },
+            "snippet": "<a id=\"ETRS Description\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "ETRS Description",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: ETRS Description"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-251-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,23,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#ETRS Description",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"ETRS Description\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "ETRS Description"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-146-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,23,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > h4 > a#Test Releases",
+            "boundingRect": {
+              "top": 2044,
+              "bottom": 2064,
+              "left": 175,
+              "right": 401,
+              "width": 226,
+              "height": 20
+            },
+            "snippet": "<a id=\"Test Releases\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Nationwide EAS Test Releases",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Test Releases"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-253-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,26,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#Test Releases",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"Test Releases\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Nationwide EAS Test Releases"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-165-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,26,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#eas-test-reporting-system-etrs- > h4 > a#Resources and FAQs",
+            "boundingRect": {
+              "top": 2537,
+              "bottom": 2557,
+              "left": 175,
+              "right": 365,
+              "width": 190,
+              "height": 20
+            },
+            "snippet": "<a id=\"Resources and FAQs\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "ETRS Resources and FAQs",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Resources and FAQs"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-272-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,29,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#Resources and FAQs",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"Resources and FAQs\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "ETRS Resources and FAQs"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

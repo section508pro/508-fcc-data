@@ -1,0 +1,455 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-126-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 709,
+              "bottom": 728,
+              "left": 425,
+              "right": 470,
+              "width": 45,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=16-142&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "16-142",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-221-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 693,
+                    "bottom": 746,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 53
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "16-142\tAuthorizing Permissive Use of the \"Next Generation\" Broadcasting Televis…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-127-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 709,
+              "bottom": 728,
+              "left": 1104,
+              "right": 1136,
+              "width": 32,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=16-142&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "1780",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-221-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,0,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 693,
+                    "bottom": 746,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 53
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "16-142\tAuthorizing Permissive Use of the \"Next Generation\" Broadcasting Televis…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-130-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 826,
+              "bottom": 845,
+              "left": 425,
+              "right": 454,
+              "width": 29,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=02-6&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "02-6",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-222-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 821,
+                    "bottom": 851,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 30
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "02-6\tIn the Matter of Schools and Libraries Universal Service Support Mechanism…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-131-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 826,
+              "bottom": 845,
+              "left": 1104,
+              "right": 1120,
+              "width": 16,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=02-6&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "77",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-222-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,2,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 821,
+                    "bottom": 851,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 30
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "02-6\tIn the Matter of Schools and Libraries Universal Service Support Mechanism…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-134-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 920,
+              "bottom": 939,
+              "left": 425,
+              "right": 462,
+              "width": 37,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=10-90&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "10-90",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-223-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 904,
+                    "bottom": 957,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 53
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "10-90\tIn the Matter of Connect America Fund A National Broadband Plan for Our F…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-135-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 920,
+              "bottom": 939,
+              "left": 1104,
+              "right": 1120,
+              "width": 16,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=10-90&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "35",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-223-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 904,
+                    "bottom": 957,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 53
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "10-90\tIn the Matter of Connect America Fund A National Broadband Plan for Our F…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-138-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,6,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 992,
+              "bottom": 1011,
+              "left": 425,
+              "right": 462,
+              "width": 37,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=15-91&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "15-91",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-224-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,6,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 987,
+                    "bottom": 1018,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 30
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "15-91\tWireless Emergency Alerts\t28"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-139-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,6,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 992,
+              "bottom": 1011,
+              "left": 1104,
+              "right": 1120,
+              "width": 16,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=15-91&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "28",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-224-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,6,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 987,
+                    "bottom": 1018,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 30
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "15-91\tWireless Emergency Alerts\t28"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-142-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,8,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1075,
+              "bottom": 1094,
+              "left": 425,
+              "right": 470,
+              "width": 45,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=18-295&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "18-295",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,8,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1070,
+                    "bottom": 1101,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 30
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "18-295\tUnlicensed Use of the 6 GHz Band\t22"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-143-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,8,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1075,
+              "bottom": 1094,
+              "left": 1104,
+              "right": 1120,
+              "width": 16,
+              "height": 19
+            },
+            "snippet": "<a href=\"/ecfs/search/filings?proceedings_name=18-295&amp;sort=date_disseminated,DESC\">",
+            "nodeLabel": "22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-TR",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,1,TBODY,8,TR",
+                  "selector": "div.proceedings-block > table.proceedings-block__table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1070,
+                    "bottom": 1101,
+                    "left": 421,
+                    "right": 1198,
+                    "width": 776,
+                    "height": 30
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "18-295\tUnlicensed Use of the 6 GHz Band\t22"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

@@ -1,0 +1,885 @@
+[
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 19,
+              "bottom": 59,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-212-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,0,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1026,
+              "bottom": 1052,
+              "left": 42,
+              "right": 131,
+              "width": 89,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-auction\">",
+            "nodeLabel": "Auction",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-214-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,1,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1077,
+              "bottom": 1102,
+              "left": 42,
+              "right": 114,
+              "width": 72,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-blogs\">",
+            "nodeLabel": "Blogs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-215-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,2,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1127,
+              "bottom": 1153,
+              "left": 42,
+              "right": 178,
+              "width": 136,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-bureau-office\">",
+            "nodeLabel": "Bureau/Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-216-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,3,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1178,
+              "bottom": 1204,
+              "left": 42,
+              "right": 216,
+              "width": 174,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-edoc-attachment\">",
+            "nodeLabel": "EDOC Attachments",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-217-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,4,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1229,
+              "bottom": 1255,
+              "left": 42,
+              "right": 126,
+              "width": 84,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-edoc\">",
+            "nodeLabel": "EDOCS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-218-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,5,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1280,
+              "bottom": 1305,
+              "left": 42,
+              "right": 123,
+              "width": 81,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-events\">",
+            "nodeLabel": "Events",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-219-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,6,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1330,
+              "bottom": 1356,
+              "left": 42,
+              "right": 153,
+              "width": 111,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-faux-form\">",
+            "nodeLabel": "Faux Form",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-220-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,7,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1381,
+              "bottom": 1407,
+              "left": 42,
+              "right": 126,
+              "width": 84,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-guide\">",
+            "nodeLabel": "Guides",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-221-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,8,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1432,
+              "bottom": 1458,
+              "left": 42,
+              "right": 174,
+              "width": 132,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-landing-page\">",
+            "nodeLabel": "Landing page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-222-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,9,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1483,
+              "bottom": 1508,
+              "left": 42,
+              "right": 114,
+              "width": 72,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-map\">",
+            "nodeLabel": "Maps",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-223-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,10,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1533,
+              "bottom": 1559,
+              "left": 42,
+              "right": 118,
+              "width": 76,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-note\">",
+            "nodeLabel": "Notes",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-224-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,11,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1584,
+              "bottom": 1610,
+              "left": 42,
+              "right": 117,
+              "width": 75,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-page\">",
+            "nodeLabel": "Pages",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-225-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,12,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1635,
+              "bottom": 1661,
+              "left": 42,
+              "right": 125,
+              "width": 83,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-leadership\">",
+            "nodeLabel": "People",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-226-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,13,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1686,
+              "bottom": 1711,
+              "left": 42,
+              "right": 133,
+              "width": 91,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-podcast\">",
+            "nodeLabel": "Podcast",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-227-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,14,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1736,
+              "bottom": 1762,
+              "left": 42,
+              "right": 132,
+              "width": 90,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-report\">",
+            "nodeLabel": "Reports",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-228-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,15,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1787,
+              "bottom": 1813,
+              "left": 42,
+              "right": 168,
+              "width": 126,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-system-page\">",
+            "nodeLabel": "System Page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-229-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,16,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1838,
+              "bottom": 1864,
+              "left": 42,
+              "right": 161,
+              "width": 119,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-transaction\">",
+            "nodeLabel": "Transaction",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-230-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,17,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1889,
+              "bottom": 1914,
+              "left": 42,
+              "right": 144,
+              "width": 102,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-webform\">",
+            "nodeLabel": "Webform",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-231-LABEL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET,1,DIV,0,DIV,0,DIV,18,DIV,1,LABEL",
+            "selector": "div#edit-type > div.form-checkboxes > div.js-form-item > label.form-check-label",
+            "boundingRect": {
+              "top": 1939,
+              "bottom": 1965,
+              "left": 42,
+              "right": 192,
+              "width": 150,
+              "height": 26
+            },
+            "snippet": "<label class=\"form-check-label option\" for=\"edit-type-working-paper\">",
+            "nodeLabel": "Working Papers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #2c75d6, background color: #eeeeee, font size: 12.1pt (16.1px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-213-FIELDSET",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,FIELDSET",
+                  "selector": "div.row > div#exposed-taxonomy-filter > form#views-exposed-form-taxonomy-term-taxonomy-term-page > fieldset#edit-type--wrapper",
+                  "boundingRect": {
+                    "top": 988,
+                    "bottom": 1246,
+                    "left": 29,
+                    "right": 383,
+                    "width": 354,
+                    "height": 257
+                  },
+                  "snippet": "<fieldset data-drupal-selector=\"edit-type\" id=\"edit-type--wrapper\" class=\"fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrap…\">",
+                  "nodeLabel": "Content type\nAuction\nBlogs\nBureau/Office\nEDOC Attachments\nEDOCS\nEvents\nFaux For…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 19
+  }
+]

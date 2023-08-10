@@ -1,0 +1,508 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-216-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,2,DIV,0,SECTION,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.content > div.component-card__field-card-body > div.pane-content > h4",
+            "boundingRect": {
+              "top": 2376,
+              "bottom": 2544,
+              "left": 26,
+              "right": 386,
+              "width": 360,
+              "height": 168
+            },
+            "snippet": "<h4 role=\"presentation\" aria-level=\"3\">",
+            "nodeLabel": "FCC, OIG Twitter, Facebook and LinkedIn social media platforms are designed to …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-level=\"3\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 21,
+              "bottom": 61,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-217-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.card-body > div.content > div.component-card__field-card-body > p",
+            "boundingRect": {
+              "top": 1946,
+              "bottom": 1964,
+              "left": 40,
+              "right": 372,
+              "width": 332,
+              "height": 18
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Report Waste, Fraud & Abuse",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-218-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-bureau_office",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5377,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5377
+                  },
+                  "snippet": "<body class=\"page-node-bureau_office page-node-1620 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-bureau_office"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-219-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P",
+            "selector": "div.card-body > div.content > div.component-card__field-card-body > p",
+            "boundingRect": {
+              "top": 2107,
+              "bottom": 2181,
+              "left": 26,
+              "right": 386,
+              "width": 360,
+              "height": 74
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Phone: (202) 418-0473\nToll Free: (888) 863-2244\nFAX: (202) 418-2811\nEmail: Hotl…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.5pt (15.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-218-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-bureau_office",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5377,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5377
+                  },
+                  "snippet": "<body class=\"page-node-bureau_office page-node-1620 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-bureau_office"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-220-STRONG",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,0,STRONG",
+            "selector": "div.content > div.component-card__field-card-body > p > strong",
+            "boundingRect": {
+              "top": 2106,
+              "bottom": 2127,
+              "left": 124,
+              "right": 177,
+              "width": 53,
+              "height": 21
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Phone:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-218-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-bureau_office",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5377,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5377
+                  },
+                  "snippet": "<body class=\"page-node-bureau_office page-node-1620 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-bureau_office"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-221-STRONG",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,3,STRONG",
+            "selector": "div.content > div.component-card__field-card-body > p > strong",
+            "boundingRect": {
+              "top": 2124,
+              "bottom": 2145,
+              "left": 116,
+              "right": 186,
+              "width": 70,
+              "height": 21
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Toll Free:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-218-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-bureau_office",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5377,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5377
+                  },
+                  "snippet": "<body class=\"page-node-bureau_office page-node-1620 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-bureau_office"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-222-STRONG",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,6,STRONG",
+            "selector": "div.content > div.component-card__field-card-body > p > strong",
+            "boundingRect": {
+              "top": 2142,
+              "bottom": 2163,
+              "left": 134,
+              "right": 168,
+              "width": 34,
+              "height": 21
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FAX:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-218-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-bureau_office",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5377,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5377
+                  },
+                  "snippet": "<body class=\"page-node-bureau_office page-node-1620 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-bureau_office"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-223-STRONG",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,9,STRONG",
+            "selector": "div.content > div.component-card__field-card-body > p > strong",
+            "boundingRect": {
+              "top": 2161,
+              "bottom": 2182,
+              "left": 123,
+              "right": 170,
+              "width": 47,
+              "height": 21
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Email:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-218-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-bureau_office",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5377,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5377
+                  },
+                  "snippet": "<body class=\"page-node-bureau_office page-node-1620 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-bureau_office"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-122-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,10,A",
+            "selector": "div.content > div.component-card__field-card-body > p > a",
+            "boundingRect": {
+              "top": 2161,
+              "bottom": 2182,
+              "left": 174,
+              "right": 289,
+              "width": 115,
+              "height": 21
+            },
+            "snippet": "<a href=\"mailto:Hotline@fcc.gov\" rel=\"nofollow\">",
+            "nodeLabel": "Hotline@fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.5pt (15.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-218-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-bureau_office",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5377,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 5377
+                  },
+                  "snippet": "<body class=\"page-node-bureau_office page-node-1620 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-bureau_office"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-124-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,2,DIV,0,SECTION,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,A",
+            "selector": "div.pane-content > div.row > div.social-column > a",
+            "boundingRect": {
+              "top": 2791,
+              "bottom": 2812,
+              "left": 11,
+              "right": 62,
+              "width": 51,
+              "height": 21
+            },
+            "snippet": "<a aria-describedby=\"audioeye_new_window_message\" href=\"https://www.facebook.com/fccoig\" rel=\"noopener noreferrer\" target=\"_blank\">",
+            "nodeLabel": "div.pane-content > div.row > div.social-column > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-125-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,2,DIV,0,SECTION,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,A",
+            "selector": "div.pane-content > div.row > div.social-column > a",
+            "boundingRect": {
+              "top": 2925,
+              "bottom": 2946,
+              "left": 11,
+              "right": 62,
+              "width": 51,
+              "height": 21
+            },
+            "snippet": "<a aria-describedby=\"audioeye_new_window_message\" href=\"https://www.linkedin.com/company/federal-communications-commission-fcc-off…\" rel=\"noopener noreferrer\" target=\"_blank\">",
+            "nodeLabel": "div.pane-content > div.row > div.social-column > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

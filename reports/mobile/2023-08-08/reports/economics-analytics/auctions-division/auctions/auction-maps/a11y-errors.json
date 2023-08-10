@@ -1,0 +1,660 @@
+[
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-139-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes",
+            "boundingRect": {
+              "top": 1242,
+              "bottom": 1242,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Geographic Licensing Schemes\" id=\"Geographic Licensing Schemes\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-141-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes",
+            "boundingRect": {
+              "top": 1452,
+              "bottom": 1452,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Geographic Licensing Schemes\" id=\"Geographic Licensing Schemes\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-142-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,3,DIV,0,A",
+            "selector": "div.page__body > div.singleColumn > div.row > a#Geographic Licensing Schemes",
+            "boundingRect": {
+              "top": 1452,
+              "bottom": 1452,
+              "left": 12,
+              "right": 231,
+              "width": 219,
+              "height": 0
+            },
+            "snippet": "<a name=\"Geographic Licensing Schemes\" id=\"Geographic Licensing Schemes\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.row > a#Geographic Licensing Schemes",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-274-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,7,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits",
+            "boundingRect": {
+              "top": 4476,
+              "bottom": 4476,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Auction Licenses &amp; Permits\" id=\"Auction Licenses &amp; Permits\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-276-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,9,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits",
+            "boundingRect": {
+              "top": 4594,
+              "bottom": 4594,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Auction Licenses &amp; Permits\" id=\"Auction Licenses &amp; Permits\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-277-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,10,DIV,0,A",
+            "selector": "div.row > div.colLast > div.row > a#Auction Licenses & Permits",
+            "boundingRect": {
+              "top": 4594,
+              "bottom": 4594,
+              "left": -3,
+              "right": 415,
+              "width": 418,
+              "height": 0
+            },
+            "snippet": "<a name=\"Auction Licenses &amp; Permits\" id=\"Auction Licenses &amp; Permits\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.row > div.colLast > div.row > a#Auction Licenses & Permits",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-298-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,17,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Other Maps",
+            "boundingRect": {
+              "top": 5350,
+              "bottom": 5350,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Other Maps\" id=\"Other Maps\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Other Maps",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-300-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,19,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Other Maps",
+            "boundingRect": {
+              "top": 5467,
+              "bottom": 5467,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Other Maps\" id=\"Other Maps\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Other Maps",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-301-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,20,DIV,0,A",
+            "selector": "div.row > div.colLast > div.row > a#Other Maps",
+            "boundingRect": {
+              "top": 5467,
+              "bottom": 5467,
+              "left": -3,
+              "right": 415,
+              "width": 418,
+              "height": 0
+            },
+            "snippet": "<a name=\"Other Maps\" id=\"Other Maps\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.row > div.colLast > div.row > a#Other Maps",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-313-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,23,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Census Data",
+            "boundingRect": {
+              "top": 5669,
+              "bottom": 5669,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Census Data\" id=\"Census Data\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Census Data",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-315-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,25,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Census Data",
+            "boundingRect": {
+              "top": 5786,
+              "bottom": 5786,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Census Data\" id=\"Census Data\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Census Data",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-316-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,26,DIV,0,A",
+            "selector": "div.row > div.colLast > div.row > a#Census Data",
+            "boundingRect": {
+              "top": 5786,
+              "bottom": 5786,
+              "left": -3,
+              "right": 415,
+              "width": 418,
+              "height": 0
+            },
+            "snippet": "<a name=\"Census Data\" id=\"Census Data\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.row > div.colLast > div.row > a#Census Data",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 12
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 14,
+              "bottom": 54,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-139-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes",
+            "boundingRect": {
+              "top": 1242,
+              "bottom": 1242,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Geographic Licensing Schemes\" id=\"Geographic Licensing Schemes\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Geographic Licensing Schemes"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-140-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,H2,0,A",
+                  "selector": "div.singleColumn > div.sectionHeadBox > h2 > a#Geographic Licensing Schemes",
+                  "boundingRect": {
+                    "top": 1245,
+                    "bottom": 1373,
+                    "left": 12,
+                    "right": 171,
+                    "width": 159,
+                    "height": 128
+                  },
+                  "snippet": "<a name=\"Geographic Licensing Schemes\" id=\"Geographic Licensing Schemes\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Geographic Licensing Schemes"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-141-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,A",
+                  "selector": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes",
+                  "boundingRect": {
+                    "top": 1452,
+                    "bottom": 1452,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Geographic Licensing Schemes\" id=\"Geographic Licensing Schemes\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page-body > div.page__body > div.singleColumn > a#Geographic Licensing Schemes"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-142-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,3,DIV,0,A",
+                  "selector": "div.page__body > div.singleColumn > div.row > a#Geographic Licensing Schemes",
+                  "boundingRect": {
+                    "top": 1452,
+                    "bottom": 1452,
+                    "left": 12,
+                    "right": 231,
+                    "width": 219,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Geographic Licensing Schemes\" id=\"Geographic Licensing Schemes\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page__body > div.singleColumn > div.row > a#Geographic Licensing Schemes"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-274-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,7,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits",
+            "boundingRect": {
+              "top": 4476,
+              "bottom": 4476,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Auction Licenses &amp; Permits\" id=\"Auction Licenses &amp; Permits\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Auction Licenses & Permits"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-275-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,8,DIV,0,H2,0,A",
+                  "selector": "div.colLast > div.sectionHeadBox > h2 > a#Auction Licenses & Permits",
+                  "boundingRect": {
+                    "top": 4521,
+                    "bottom": 4559,
+                    "left": 12,
+                    "right": 390,
+                    "width": 378,
+                    "height": 38
+                  },
+                  "snippet": "<a name=\"Auction Licenses &amp; Permits\" id=\"Auction Licenses &amp; Permits\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Auction Licenses & Permits"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-276-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,9,A",
+                  "selector": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits",
+                  "boundingRect": {
+                    "top": 4594,
+                    "bottom": 4594,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Auction Licenses &amp; Permits\" id=\"Auction Licenses &amp; Permits\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Auction Licenses & Permits"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-277-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,10,DIV,0,A",
+                  "selector": "div.row > div.colLast > div.row > a#Auction Licenses & Permits",
+                  "boundingRect": {
+                    "top": 4594,
+                    "bottom": 4594,
+                    "left": -3,
+                    "right": 415,
+                    "width": 418,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Auction Licenses &amp; Permits\" id=\"Auction Licenses &amp; Permits\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.row > div.colLast > div.row > a#Auction Licenses & Permits"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-298-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,17,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Other Maps",
+            "boundingRect": {
+              "top": 5350,
+              "bottom": 5350,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Other Maps\" id=\"Other Maps\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Other Maps",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Other Maps"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-299-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,18,DIV,0,H2,0,A",
+                  "selector": "div.colLast > div.sectionHeadBox > h2 > a#Other Maps",
+                  "boundingRect": {
+                    "top": 5395,
+                    "bottom": 5433,
+                    "left": 12,
+                    "right": 176,
+                    "width": 164,
+                    "height": 38
+                  },
+                  "snippet": "<a name=\"Other Maps\" id=\"Other Maps\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Other Maps"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-300-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,19,A",
+                  "selector": "div.singleColumn > div.row > div.colLast > a#Other Maps",
+                  "boundingRect": {
+                    "top": 5467,
+                    "bottom": 5467,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Other Maps\" id=\"Other Maps\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Other Maps"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-301-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,20,DIV,0,A",
+                  "selector": "div.row > div.colLast > div.row > a#Other Maps",
+                  "boundingRect": {
+                    "top": 5467,
+                    "bottom": 5467,
+                    "left": -3,
+                    "right": 415,
+                    "width": 418,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Other Maps\" id=\"Other Maps\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.row > div.colLast > div.row > a#Other Maps"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-313-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,23,A",
+            "selector": "div.singleColumn > div.row > div.colLast > a#Census Data",
+            "boundingRect": {
+              "top": 5669,
+              "bottom": 5669,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"Census Data\" id=\"Census Data\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Census Data",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: Census Data"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-314-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,24,DIV,0,H2,0,A",
+                  "selector": "div.colLast > div.sectionHeadBox > h2 > a#Census Data",
+                  "boundingRect": {
+                    "top": 5714,
+                    "bottom": 5752,
+                    "left": 12,
+                    "right": 185,
+                    "width": 173,
+                    "height": 38
+                  },
+                  "snippet": "<a name=\"Census Data\" id=\"Census Data\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Census Data"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-315-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,25,A",
+                  "selector": "div.singleColumn > div.row > div.colLast > a#Census Data",
+                  "boundingRect": {
+                    "top": 5786,
+                    "bottom": 5786,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Census Data\" id=\"Census Data\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.singleColumn > div.row > div.colLast > a#Census Data"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-316-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,15,DIV,1,DIV,26,DIV,0,A",
+                  "selector": "div.row > div.colLast > div.row > a#Census Data",
+                  "boundingRect": {
+                    "top": 5786,
+                    "bottom": 5786,
+                    "left": -3,
+                    "right": 415,
+                    "width": 418,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"Census Data\" id=\"Census Data\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.row > div.colLast > div.row > a#Census Data"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
