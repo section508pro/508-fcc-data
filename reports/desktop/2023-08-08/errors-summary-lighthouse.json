@@ -1,1 +1,13 @@
-{}
+{
+  "color-contrast": 673,
+  "aria-command-name": 195,
+  "link-name": 18,
+  "duplicate-id-active": 13,
+  "heading-order": 6,
+  "aria-required-children": 6,
+  "aria-allowed-attr": 4,
+  "aria-input-field-name": 2,
+  "aria-required-parent": 2,
+  "listitem": 2,
+  "duplicate-id-aria": 1
+}
