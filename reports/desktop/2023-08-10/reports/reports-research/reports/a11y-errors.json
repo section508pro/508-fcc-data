@@ -1,0 +1,105 @@
+[
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-213-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,1,DIV,0,NAV,0,DIV,0,DIV",
+            "selector": "div.navbar_middle > nav.nav__tabs > div#mainNavbar > div.nav",
+            "boundingRect": {
+              "top": -11,
+              "bottom": 65,
+              "left": 431,
+              "right": 821,
+              "width": 390,
+              "height": 76
+            },
+            "snippet": "<div class=\"nav\" role=\"tablist\">",
+            "nodeLabel": "Browse by\nCATEGORY\nBrowse by\nBUREAUS & OFFICES",
+            "explanation": "Fix any of the following:\n  Required ARIA child role not present: tab"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-214-H4",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,10,DIV,0,NAV,0,H4",
+            "selector": "div.js-view-dom-id-c38df719506c82bdbaa6e1d0d2bfd8691f836b15e5624f5dba641204ebd7684c > div.component-pager > nav > h4#pagination-heading",
+            "boundingRect": {
+              "top": 1176,
+              "bottom": 1177,
+              "left": 448,
+              "right": 449,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<h4 id=\"pagination-heading\" class=\"visually-hidden\">",
+            "nodeLabel": "Pagination",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

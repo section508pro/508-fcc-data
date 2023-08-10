@@ -1,0 +1,203 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-848-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,0,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 511,
+              "bottom": 525,
+              "left": 476,
+              "right": 771,
+              "width": 295,
+              "height": 14
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "May 26, 2023 - Carroll Broadcasting Company News",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-849-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 400,
+                    "bottom": 839,
+                    "left": 454,
+                    "right": 1183,
+                    "width": 729,
+                    "height": 439
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-850-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,1,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 569,
+              "bottom": 583,
+              "left": 476,
+              "right": 713,
+              "width": 236,
+              "height": 14
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "April 27, 2023 - Richmond Times-Dispatch",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-849-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 400,
+                    "bottom": 839,
+                    "left": 454,
+                    "right": 1183,
+                    "width": 729,
+                    "height": 439
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-851-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,2,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 627,
+              "bottom": 641,
+              "left": 476,
+              "right": 630,
+              "width": 154,
+              "height": 14
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "April 20, 2023 - SDxCentral",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-849-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 400,
+                    "bottom": 839,
+                    "left": 454,
+                    "right": 1183,
+                    "width": 729,
+                    "height": 439
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-852-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,3,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 685,
+              "bottom": 699,
+              "left": 476,
+              "right": 631,
+              "width": 155,
+              "height": 14
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "March 24, 2023 - Fox News",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-849-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 400,
+                    "bottom": 839,
+                    "left": 454,
+                    "right": 1183,
+                    "width": 729,
+                    "height": 439
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

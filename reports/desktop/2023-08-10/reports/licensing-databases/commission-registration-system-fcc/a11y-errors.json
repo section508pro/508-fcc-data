@@ -1,0 +1,329 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-219-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,P",
+            "selector": "div.page-body > div.page__body > div > p",
+            "boundingRect": {
+              "top": 769,
+              "bottom": 813,
+              "left": 421,
+              "right": 1198,
+              "width": 776,
+              "height": 45
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Due to the ongoing health crisis, the FCC will temporarily discontinue its prac…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-220-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2174,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2176
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-184316 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-221-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,1,UL,0,LI",
+            "selector": "div.page__body > div > ul > li",
+            "boundingRect": {
+              "top": 827,
+              "bottom": 850,
+              "left": 449,
+              "right": 1198,
+              "width": 748,
+              "height": 22
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Registration Confirmation",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-220-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2174,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2176
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-184316 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-222-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,1,UL,1,LI",
+            "selector": "div.page__body > div > ul > li",
+            "boundingRect": {
+              "top": 850,
+              "bottom": 872,
+              "left": 449,
+              "right": 1198,
+              "width": 748,
+              "height": 22
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Password Notification",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-220-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2174,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2176
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-184316 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-223-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,1,UL,2,LI",
+            "selector": "div.page__body > div > ul > li",
+            "boundingRect": {
+              "top": 872,
+              "bottom": 894,
+              "left": 449,
+              "right": 1198,
+              "width": 748,
+              "height": 22
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Password Reset",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-220-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2174,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2176
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-184316 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-224-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,1,UL,3,LI",
+            "selector": "div.page__body > div > ul > li",
+            "boundingRect": {
+              "top": 894,
+              "bottom": 917,
+              "left": 449,
+              "right": 1198,
+              "width": 748,
+              "height": 22
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Password Security Question Reset",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-220-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2174,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2176
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-184316 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-225-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,1,UL,4,LI",
+            "selector": "div.page__body > div > ul > li",
+            "boundingRect": {
+              "top": 917,
+              "bottom": 939,
+              "left": 449,
+              "right": 1198,
+              "width": 748,
+              "height": 22
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Registration Update",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-220-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2174,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2176
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-184316 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-226-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,2,P",
+            "selector": "div.page-body > div.page__body > div > p",
+            "boundingRect": {
+              "top": 953,
+              "bottom": 998,
+              "left": 421,
+              "right": 1198,
+              "width": 776,
+              "height": 45
+            },
+            "snippet": "<p>",
+            "nodeLabel": "We apologize for the inconvenience. We will resume this service when the FCC re…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-220-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2174,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2176
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-184316 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  }
+]
