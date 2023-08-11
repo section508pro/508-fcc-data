@@ -1,0 +1,455 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-231-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-1 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 778,
+              "bottom": 812,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "How the FCC went from \"beauty contests\" to spectrum auctions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-233-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-2 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 1051,
+              "bottom": 1084,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "Get to Know the FCC's Wireline Competition Bureau",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-234-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-3 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 1323,
+              "bottom": 1357,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "Get to Know the Office of General Counsel",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-235-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-4 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 1596,
+              "bottom": 1630,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "How is the FCC cracking down on illegal radio?",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-236-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,5,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-5 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 1913,
+              "bottom": 1947,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "An FCC Legend Shares His Perspective",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-237-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,6,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-6 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 2208,
+              "bottom": 2242,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "What should consumers know about changes coming to TV frequencies?",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-238-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,7,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-7 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 2525,
+              "bottom": 2559,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "How has the agency evolved to keep pace with new tech?",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-239-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,8,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-8 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 2798,
+              "bottom": 2832,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "How does the National Wireless Safety Alliance work?",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-240-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,9,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-9 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 3115,
+              "bottom": 3149,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "How do new radio technologies get from the test phase to market?",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-241-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,10,DIV,0,ARTICLE,0,DIV,3,H4",
+            "selector": "div.views-row-10 > article.node > div.clearfix > h4.podcast-subtitle",
+            "boundingRect": {
+              "top": 3388,
+              "bottom": 3421,
+              "left": 153,
+              "right": 1198,
+              "width": 1045,
+              "height": 34
+            },
+            "snippet": "<h4 class=\"podcast-subtitle\">",
+            "nodeLabel": "With sky-high demand for tower crews, what can be done to strengthen America's …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.8pt (21px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4623,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4627
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-news-events\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

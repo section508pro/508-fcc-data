@@ -1,0 +1,459 @@
+[
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,1,A",
+            "selector": "div.page-body > div.page__body > div.wtb-main-box > a#filing",
+            "boundingRect": {
+              "top": 652,
+              "bottom": 742,
+              "left": 446,
+              "right": 446,
+              "width": 0,
+              "height": 90
+            },
+            "snippet": "<a id=\"filing\" name=\"filing\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.wtb-main-box > a#filing",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-133-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,5,DIV,0,A",
+            "selector": "div.page__body > div.wtb-main-box > div.col-3 > a#filing",
+            "boundingRect": {
+              "top": 742,
+              "bottom": 742,
+              "left": 685,
+              "right": 685,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"filing\" name=\"filing\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.wtb-main-box > div.col-3 > a#filing",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-140-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,11,DIV,0,A",
+            "selector": "div.page__body > div.wtb-main-box > div.heading > a#searching",
+            "boundingRect": {
+              "top": 1179,
+              "bottom": 1179,
+              "left": 446,
+              "right": 446,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"searching\" name=\"searching\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.wtb-main-box > div.heading > a#searching",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-143-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,20,A",
+            "selector": "div.page-body > div.page__body > div.wtb-main-box > a#environment",
+            "boundingRect": {
+              "top": 1254,
+              "bottom": 1387,
+              "left": 910,
+              "right": 910,
+              "width": 0,
+              "height": 133
+            },
+            "snippet": "<a id=\"environment\" name=\"environment\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.wtb-main-box > a#environment",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-127-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,A",
+            "selector": "div.page-body > div.page__body > div.internal-links > a",
+            "boundingRect": {
+              "top": 581,
+              "bottom": 620,
+              "left": 723,
+              "right": 776,
+              "width": 53,
+              "height": 39
+            },
+            "snippet": "<a href=\"/wireless/universal-licensing-system#filing\">",
+            "nodeLabel": "Filing",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #2c75d6, background color: #f7f7f7, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-247-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV",
+                  "selector": "div.col-md-12 > div.page-body > div.page__body > div.internal-links",
+                  "boundingRect": {
+                    "top": 575,
+                    "bottom": 627,
+                    "left": 431,
+                    "right": 1188,
+                    "width": 756,
+                    "height": 52
+                  },
+                  "snippet": "<div class=\"internal-links\">",
+                  "nodeLabel": "Filing | Searching"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-248-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -8,
+                    "bottom": 3215,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 3223
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-228109 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-128-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,2,A",
+            "selector": "div.page-body > div.page__body > div.internal-links > a",
+            "boundingRect": {
+              "top": 581,
+              "bottom": 620,
+              "left": 812,
+              "right": 895,
+              "width": 83,
+              "height": 39
+            },
+            "snippet": "<a href=\"/wireless/universal-licensing-system#searching\">",
+            "nodeLabel": "Searching",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #2c75d6, background color: #f7f7f7, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-247-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV",
+                  "selector": "div.col-md-12 > div.page-body > div.page__body > div.internal-links",
+                  "boundingRect": {
+                    "top": 575,
+                    "bottom": 627,
+                    "left": 431,
+                    "right": 1188,
+                    "width": 756,
+                    "height": 52
+                  },
+                  "snippet": "<div class=\"internal-links\">",
+                  "nodeLabel": "Filing | Searching"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-248-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -8,
+                    "bottom": 3215,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 3223
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-228109 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-145-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,A",
+            "selector": "div.page-body > div.page__body > div.internal-links > a",
+            "boundingRect": {
+              "top": 1428,
+              "bottom": 1467,
+              "left": 723,
+              "right": 776,
+              "width": 53,
+              "height": 39
+            },
+            "snippet": "<a href=\"/wireless/universal-licensing-system#filing\">",
+            "nodeLabel": "Filing",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #2c75d6, background color: #f7f7f7, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-249-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV",
+                  "selector": "div.col-md-12 > div.page-body > div.page__body > div.internal-links",
+                  "boundingRect": {
+                    "top": 1422,
+                    "bottom": 1474,
+                    "left": 431,
+                    "right": 1188,
+                    "width": 756,
+                    "height": 52
+                  },
+                  "snippet": "<div class=\"internal-links\">",
+                  "nodeLabel": "Filing | Searching"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-248-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -8,
+                    "bottom": 3215,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 3223
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-228109 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-146-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,2,A",
+            "selector": "div.page-body > div.page__body > div.internal-links > a",
+            "boundingRect": {
+              "top": 1428,
+              "bottom": 1467,
+              "left": 812,
+              "right": 895,
+              "width": 83,
+              "height": 39
+            },
+            "snippet": "<a href=\"/wireless/universal-licensing-system#searching\">",
+            "nodeLabel": "Searching",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #2c75d6, background color: #f7f7f7, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-249-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV",
+                  "selector": "div.col-md-12 > div.page-body > div.page__body > div.internal-links",
+                  "boundingRect": {
+                    "top": 1422,
+                    "bottom": 1474,
+                    "left": 431,
+                    "right": 1188,
+                    "width": 756,
+                    "height": 52
+                  },
+                  "snippet": "<div class=\"internal-links\">",
+                  "nodeLabel": "Filing | Searching"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-248-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -8,
+                    "bottom": 3215,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 3223
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-228109 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,1,A",
+            "selector": "div.page-body > div.page__body > div.wtb-main-box > a#filing",
+            "boundingRect": {
+              "top": 652,
+              "bottom": 742,
+              "left": 446,
+              "right": 446,
+              "width": 0,
+              "height": 90
+            },
+            "snippet": "<a id=\"filing\" name=\"filing\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.page__body > div.wtb-main-box > a#filing",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: filing"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-133-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,5,DIV,0,A",
+                  "selector": "div.page__body > div.wtb-main-box > div.col-3 > a#filing",
+                  "boundingRect": {
+                    "top": 742,
+                    "bottom": 742,
+                    "left": 685,
+                    "right": 685,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"filing\" name=\"filing\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page__body > div.wtb-main-box > div.col-3 > a#filing"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
