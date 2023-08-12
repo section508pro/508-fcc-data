@@ -1,0 +1,77 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-245-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,P,0,SPAN",
+            "selector": "div.content > div.component-card__field-card-body > p > span",
+            "boundingRect": {
+              "top": 1043,
+              "bottom": 1067,
+              "left": 435,
+              "right": 694,
+              "width": 259,
+              "height": 24
+            },
+            "snippet": "<span style=\"font-size:0.9em; color: #808080;\">",
+            "nodeLabel": "March 3, 2022 - 10:00 am (EST)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 13.4pt (17.8794px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-246-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-landing_page",
+                  "boundingRect": {
+                    "top": -5,
+                    "bottom": 5696,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 5701
+                  },
+                  "snippet": "<body class=\"page-node-landing_page page-node-28115 layout-two-sidebars path-node page-…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-landing_page"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "/",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/5G",
+    "score": 0.94,
+    "performance": 0.76,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/988-suicide-and-crisis-lifeline",
+    "score": 0.93,
+    "performance": 0.78,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/about-auctions",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees-fcc",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/communications-security-reliability-and",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/downloadable-security-technology-advisory-committee",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/federal-state-joint-conference-advanced",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/intergovernmental-advisory-committee",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/north-american-numbering-council",
+    "score": 0.98,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/open-internet-advisory-committee",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/general/task-force-optimal-public-safety-answering-point",
+    "score": 0.99,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/advisory-committees/world-radiocommunication-conference-wrc",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/contracting",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/fcc-initiatives",
+    "score": 0.86,
+    "performance": 0.44,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/fcc-initiatives/homework-gap-and-connectivity-divide",
+    "score": 0.96,
+    "performance": 0.87,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/finding-people-fcc",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about-fcc/general/advisory-committees-fcc",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/jobs-internships",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/organizational-charts-fcc",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/rulemaking-process",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about-fcc/what-we-do",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/contact",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/guest-author/jen-easterly",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership",
+    "score": 0.95,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/leadership/brendan-carr",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/brendan-carr/letters",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/brendan-carr/news",
+    "score": 0.97,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/brendan-carr/op-eds",
+    "score": 0.95,
+    "performance": 0.92,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/brendan-carr/speeches",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/brendan-carr/staff",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/brendan-carr/statements",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/brendan-carr/testimony",
+    "score": 0.99,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/op-eds",
+    "score": 0.97,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/press-and-meeting-inquiries",
+    "score": 0.96,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/speeches",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/staff",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/statements",
+    "score": 0.97,
+    "performance": 0.87,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/geoffrey-starks/testimony",
+    "score": 0.97,
+    "performance": 0.87,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/editorials",
+    "score": 0.96,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/notes",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/podcast",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/press-and-meeting-inquiries",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/speeches",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/staff",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/statements",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/jessica-rosenworcel/testimony",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/nathan-simington",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/nathan-simington/press-and-meeting-inquiries",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/leadership/nathan-simington/speeches",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/nathan-simington/staff",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/leadership/nathan-simington/statements",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/overview",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/strategic-plans-budget",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/accessibility/program",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ASLCallPortal",
+    "score": 0.89,
+    "performance": 0.73,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/auction/903",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/auctions",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/auctions-contact-information",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/auctions-experiments-papers-studies",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/auctions-summary",
+    "score": 0.96,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/auctions/archive",
+    "score": 0.93,
+    "performance": 0.81,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/auctions/conferences",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/auctions/consumer-alert",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/auctions/cross-references",
+    "score": 0.97,
+    "performance": 0.92,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/auctions/general-releases",
+    "score": 0.94,
+    "performance": 0.84,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/broadband-deployment-advisory-committee",
+    "score": 0.98,
+    "performance": 0.94,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/BroadbandData",
+    "score": 0.91,
+    "performance": 0.72,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/BroadbandData/bdtf",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/communications-equity-and-diversity-council",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/connecting-americans-health-care",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/consumer-advisory-committee",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/consumer-and-governmental-affairs",
+    "score": 0.95,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/consumer-and-governmental-affairs/about-bureau/office-intergovernmental-affairs/iac-archive/general",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/consumer-governmental-affairs",
+    "score": 0.96,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/consumer-governmental-affairs/about-bureau/office-native-affairs-and-policy/native-nations",
+    "score": 0.98,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/consumers",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/consumers/guides/broadcast-information-specialists",
+    "score": 0.98,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/consumers/guides/stop-unwanted-robocalls-and-texts",
+    "score": 0.9,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/consumers/social-media",
+    "score": 0.98,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/coronavirus",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/digitalstrategy",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/agency-financial-report-fiscal-year-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-accepted-filing-1/attachment-a",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-accepted-filing-1/attachment-b",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-granted-1/attachment-a",
+    "score": 0.96,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/auction-108-long-form-applications-are-granted-1/attachment-b",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/auction-904-defaults-public-notice/attachment-a",
+    "score": 0.96,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/auction-904-defaults-public-notice/attachment-a-0",
+    "score": 0.96,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/caf-phase-ii-auction-support-1-winning-bid-ready-be-authorized/attachment-a",
+    "score": 0.96,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/caf-phase-ii-auction-support-1-winning-bid-ready-be-authorized/attachment-b",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/caf-phase-ii-auction-support-authorized-6-winning-bids/attachment-a",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/emergency-communications-procedures-hawaii-wildfires",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/fcc-2022-budget-brief-may-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/fcc-accept-applications-fall-2024-attorney-honors-program",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/fcc-assistance-hawaii-wildfire-emergencies-available-247",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/fcc-decides-snr-and-northstar-are-ineligible-bidding-credits/orielly-statement",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/fcc-reminder-hawaii-debris-removal-and-utility-repair-teams",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/fy-2018-fcc-budget/summary",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/document/fy-2024-congressional-budget-justification",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/document/priority-telecom-services-reminder-due-hawaii-wildfires",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/documents",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/dro",
+    "score": 0.92,
+    "performance": 0.83,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/ecfs/",
+    "score": 0.96,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/ecfs/browse-popular-proceedings",
+    "score": 0.93,
+    "performance": 0.83,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/edocs",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/encyclopedia/advisory-committees-fcc",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/encyclopedia/organizational-charts-fcc",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/encyclopedia/rules-regulations-title-47",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/enforcement",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/foia",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/general-counsel/general/attorney-honors-program",
+    "score": 0.98,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/general/dro",
+    "score": 0.89,
+    "performance": 0.71,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/general/eas-test-reporting-system",
+    "score": 0.94,
+    "performance": 0.98,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/general/fcc-jobs",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/general/internships-available-fcc",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/general/no-fear-act-data",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/general/open-government-fcc",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/general/public-safety-support-center",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/general/website-notices",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/health",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/help/support-information-online-filing",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/honors-engineer-program",
+    "score": 0.98,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/hospital-robocall-protection-group",
+    "score": 0.98,
+    "performance": 0.94,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/inspector-general",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/items-on-circulation",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/july-2023-open-meeting-agenda",
+    "score": 0.97,
+    "performance": 0.87,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leadership",
+    "score": 0.95,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/licensing",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/licensing-databases/commission-registration-system-fcc",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/licensing-databases/fcc-registration-commission-registration-system",
+    "score": 0.97,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/licensing-databases/fcc-user-login",
+    "score": 0.92,
+    "performance": 0.84,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/licensing-databases/fees",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/licensing-databases/forms",
+    "score": 0.95,
+    "performance": 0.93,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/licensing-databases/licensing",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/licensing-databases/search-fcc-databases",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/licensing-databases/system-notifications",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/managing-director",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/media",
+    "score": 0.94,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/media/policy/political-programming",
+    "score": 0.98,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/media/television/childrens-educational-television-reporting-form-2100-schedule-h",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/narrowbanding-overview",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/network-outage-reporting-system-nors",
+    "score": 0.9,
+    "performance": 0.61,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/news-events",
+    "score": 0.96,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/blog",
+    "score": 0.85,
+    "performance": 0.47,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/blog/guest-authors",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/events",
+    "score": 0.91,
+    "performance": 0.73,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/events/2023/08/august-2023-open-commission-meeting",
+    "score": 0.89,
+    "performance": 0.72,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/events/2023/08/technological-advisory-council-meeting-august-17-2023",
+    "score": 0.97,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/news-events/events/2023/09/disability-advisory-committee-meeting",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/news-events/events/2023/09/september-2023-open-commission-meeting",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/news-events/events/archived",
+    "score": 0.95,
+    "performance": 0.87,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/events/open-commission-meetings",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/headlines",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/headlines/509",
+    "score": 0.96,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/notes",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/notes/2023/07/13/august-2023-open-meeting-agenda",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/news-events/notes/2023/08/02/most-important-part-internet-youve-probably-never-heard",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/news-events/podcast",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/news-events/rss-feeds-and-email-updates-fcc",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/office-inspector-general-hotline",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/offices-bureaus",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/pirate-database",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/plain-writing-fcc",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/previous-fcc-commissioners",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/privacy",
+    "score": 0.95,
+    "performance": 0.81,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/privacy-and-data-protection-task-force",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/proceedings-actions",
+    "score": 0.95,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/proceedings-actions/daily-digest",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/proceedings-actions/ex-parte",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/proceedings-actions/ex-parte/general/ex-parte-resources",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/proceedings-actions/mergers-and-acquisitions",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/public-safety-and-homeland-security",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/rbap",
+    "score": 0.95,
+    "performance": 0.81,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/reports-research",
+    "score": 0.95,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/reports-research/data",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/reports-research/developers",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/reports-research/guides",
+    "score": 0.93,
+    "performance": 0.88,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/reports-research/maps",
+    "score": 0.71,
+    "performance": 0.5,
+    "accessibility": 0.8,
+    "best-practices": 0.83,
+    "seo": 0.7
+  },
+  {
+    "path": "/reports-research/reports",
+    "score": 0.9,
+    "performance": 0.75,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/reports-research/working-papers",
+    "score": 0.88,
+    "performance": 0.69,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/reports-research/workload-and-operations-dashboard",
+    "score": 0.98,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/rulemaking/most-active-proceedings",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/space",
+    "score": 0.89,
+    "performance": 0.64,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/spoofed-robocalls",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/tags/3g-4g-and-5g",
+    "score": 0.96,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/tags/accessibility-and-disability",
+    "score": 0.97,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/tags/constituencies",
+    "score": 0.97,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/tags/spectrum-0",
+    "score": 0.97,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/task-force-prevent-digital-discrimination",
+    "score": 0.92,
+    "performance": 0.75,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/task-force-reviewing-connectivity-and-technology-needs-precision-agriculture-united-states",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/telehealth",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/uls",
+    "score": 0.86,
+    "performance": 0.58,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/visiting-fcc-facilities",
+    "score": 0.89,
+    "performance": 0.58,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/vulnerability-disclosure-policy",
+    "score": 0.88,
+    "performance": 0.5,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/wireless-telecommunications",
+    "score": 0.87,
+    "performance": 0.58,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/wireless/bureau-divisions/mobility-division/amateur-radio-service",
+    "score": 0.92,
+    "performance": 0.66,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/wireline-competition",
+    "score": 0.89,
+    "performance": 0.63,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.91
+  }
+]
