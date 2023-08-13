@@ -1,0 +1,163 @@
+[
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-128-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,2,ARTICLE,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,8,P,0,A",
+            "selector": "div.page-body > div.guide__body > p > a#robotop",
+            "boundingRect": {
+              "top": 1924,
+              "bottom": 1924,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"robotop\" id=\"robotop\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page-body > div.guide__body > p > a#robotop",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-247-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,2,ARTICLE,0,DIV,5,DIV,0,DIV,1,DIV,3,P,0,A",
+            "selector": "div.flex-container > div#tilecol2 > p > a",
+            "boundingRect": {
+              "top": 4264,
+              "bottom": 4265,
+              "left": 22,
+              "right": 22,
+              "width": 0,
+              "height": 1
+            },
+            "snippet": "<a style=\"font-size: 1px; line-height: 50%;\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": " ",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-248-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,2,ARTICLE,0,DIV,5,DIV,0,DIV,1,DIV,4,A",
+            "selector": "div.addToAny > div.flex-container > div#tilecol2 > a",
+            "boundingRect": {
+              "top": 4300,
+              "bottom": 4301,
+              "left": 22,
+              "right": 22,
+              "width": 0,
+              "height": 1
+            },
+            "snippet": "<a style=\"font-size: 1px; line-height: 50%;\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": " ",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-252-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,2,ARTICLE,0,DIV,5,DIV,0,DIV,2,DIV,3,P,2,A",
+            "selector": "div.flex-container > div#tilecol3 > p > a",
+            "boundingRect": {
+              "top": 4466,
+              "bottom": 4467,
+              "left": 211,
+              "right": 211,
+              "width": 0,
+              "height": 1
+            },
+            "snippet": "<a style=\"font-size: 1px; line-height: 50%;\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": " ",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 1,
+              "bottom": 41,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
