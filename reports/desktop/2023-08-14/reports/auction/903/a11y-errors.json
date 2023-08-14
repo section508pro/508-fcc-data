@@ -1,0 +1,371 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-164-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,5,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#overview > h4 > a#budget",
+            "boundingRect": {
+              "top": 1140,
+              "bottom": 1160,
+              "left": 444,
+              "right": 498,
+              "width": 54,
+              "height": 20
+            },
+            "snippet": "<a id=\"budget\" name=\"budget\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Budget",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: budget"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-389-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,7,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#budget",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"budget\" name=\"budget\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Budget"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-166-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,7,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#overview > h4 > a#support",
+            "boundingRect": {
+              "top": 1283,
+              "bottom": 1303,
+              "left": 444,
+              "right": 549,
+              "width": 105,
+              "height": 20
+            },
+            "snippet": "<a id=\"support\" name=\"support\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Support Term",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: support"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-391-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,9,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#support",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"support\" name=\"support\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Support Term"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-167-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,9,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#overview > h4 > a#deployment",
+            "boundingRect": {
+              "top": 1404,
+              "bottom": 1424,
+              "left": 444,
+              "right": 535,
+              "width": 91,
+              "height": 20
+            },
+            "snippet": "<a id=\"deployment\" name=\"deployment\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Deployment",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: deployment"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-392-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,11,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#deployment",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"deployment\" name=\"deployment\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Deployment"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-170-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,12,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#overview > h4 > a#technology",
+            "boundingRect": {
+              "top": 1897,
+              "bottom": 1917,
+              "left": 444,
+              "right": 695,
+              "width": 251,
+              "height": 20
+            },
+            "snippet": "<a id=\"technology\" name=\"technology\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Technology-Neutral Service Tiers",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: technology"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-395-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,14,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#technology",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"technology\" name=\"technology\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Technology-Neutral Service Tiers"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-172-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,20,DIV,1,H4,0,A",
+            "selector": "div#overview > div > h4 > a#eligible",
+            "boundingRect": {
+              "top": 2823,
+              "bottom": 2843,
+              "left": 444,
+              "right": 543,
+              "width": 99,
+              "height": 20
+            },
+            "snippet": "<a id=\"eligible\" name=\"eligible\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Eligible Areas",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: eligible"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-397-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,22,DIV,1,H4,0,A",
+                  "selector": "div.jquery-ui-filter-tabs-0-source > div > h4 > a#eligible",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"eligible\" name=\"eligible\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Eligible Areas"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-177-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,20,DIV,3,H4,0,A",
+            "selector": "div#overview > div > h4 > a#two",
+            "boundingRect": {
+              "top": 3167,
+              "bottom": 3187,
+              "left": 444,
+              "right": 679,
+              "width": 235,
+              "height": 20
+            },
+            "snippet": "<a name=\"two\" id=\"two\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Two-Stage Application Process",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: two"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-402-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,22,DIV,3,H4,0,A",
+                  "selector": "div.jquery-ui-filter-tabs-0-source > div > h4 > a#two",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"two\" id=\"two\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Two-Stage Application Process"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-181-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,20,DIV,11,H4,0,A",
+            "selector": "div#overview > div > h4 > a#time",
+            "boundingRect": {
+              "top": 4110,
+              "bottom": 4130,
+              "left": 444,
+              "right": 599,
+              "width": 155,
+              "height": 20
+            },
+            "snippet": "<a id=\"time\" name=\"time\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Timeline & Deadlines",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: time"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-406-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,22,DIV,11,H4,0,A",
+                  "selector": "div.jquery-ui-filter-tabs-0-source > div > h4 > a#time",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"time\" name=\"time\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Timeline & Deadlines"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-182-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,2,DIV,23,H4,0,A",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#overview > h4 > a#contact",
+            "boundingRect": {
+              "top": 4728,
+              "bottom": 4748,
+              "left": 444,
+              "right": 505,
+              "width": 61,
+              "height": 20
+            },
+            "snippet": "<a id=\"contact\" name=\"contact\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "Contact",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: contact"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-407-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,25,H4,0,A",
+                  "selector": "div.page__body > div.jquery-ui-filter-tabs-0-source > h4 > a#contact",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"contact\" name=\"contact\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Contact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]
