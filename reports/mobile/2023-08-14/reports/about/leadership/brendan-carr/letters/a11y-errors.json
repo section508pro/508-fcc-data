@@ -1,0 +1,507 @@
+[
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 15,
+              "bottom": 55,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-208-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,2,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 793,
+              "bottom": 811,
+              "left": 49,
+              "right": 156,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "December 2, 2022",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-210-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 873,
+              "bottom": 891,
+              "left": 49,
+              "right": 142,
+              "width": 93,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "August 18, 2022",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-211-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,4,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 953,
+              "bottom": 971,
+              "left": 49,
+              "right": 127,
+              "width": 78,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "June 24, 2022",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-212-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,5,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1033,
+              "bottom": 1051,
+              "left": 49,
+              "right": 127,
+              "width": 78,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "April 20, 2022",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-213-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,6,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1113,
+              "bottom": 1131,
+              "left": 49,
+              "right": 137,
+              "width": 88,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "March 22, 2022",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-214-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,7,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1193,
+              "bottom": 1211,
+              "left": 49,
+              "right": 144,
+              "width": 95,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "January 31, 2022",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-215-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,8,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1273,
+              "bottom": 1291,
+              "left": 49,
+              "right": 113,
+              "width": 64,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "July 2, 2021",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-216-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,9,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1353,
+              "bottom": 1371,
+              "left": 49,
+              "right": 113,
+              "width": 64,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "July 2, 2021",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-217-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,10,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1433,
+              "bottom": 1451,
+              "left": 49,
+              "right": 113,
+              "width": 64,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "July 2, 2021",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-218-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,11,P,0,SPAN",
+            "selector": "div.container > div.subpage__body > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1514,
+              "bottom": 1532,
+              "left": 49,
+              "right": 113,
+              "width": 64,
+              "height": 18
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "July 2, 2021",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-no-node-or-group",
+                  "boundingRect": {
+                    "top": -6,
+                    "bottom": 2443,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2449
+                  },
+                  "snippet": "<body class=\"page-no-node-or-group layout-two-sidebars path-about\" data-audioeye-lang=\"en\" data-audioeye-device-mobile=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-no-node-or-group"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 15,
+              "bottom": 55,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-847-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,0,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 966,
+              "bottom": 1002,
+              "left": 71,
+              "right": 331,
+              "width": 260,
+              "height": 36
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "May 26, 2023 - Carroll Broadcasting Company News",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-848-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 799,
+                    "bottom": 1448,
+                    "left": 49,
+                    "right": 388,
+                    "width": 339,
+                    "height": 650
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-849-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,1,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1090,
+              "bottom": 1104,
+              "left": 71,
+              "right": 308,
+              "width": 236,
+              "height": 14
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "April 27, 2023 - Richmond Times-Dispatch",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-848-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 799,
+                    "bottom": 1448,
+                    "left": 49,
+                    "right": 388,
+                    "width": 339,
+                    "height": 650
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-850-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,2,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1170,
+              "bottom": 1184,
+              "left": 71,
+              "right": 225,
+              "width": 154,
+              "height": 14
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "April 20, 2023 - SDxCentral",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-848-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 799,
+                    "bottom": 1448,
+                    "left": 49,
+                    "right": 388,
+                    "width": 339,
+                    "height": 650
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-851-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV,3,DIV,3,P,0,SPAN",
+            "selector": "div.jquery-ui-filter-tabs-0-widget > div#2023 > p.copyheadline > span.copyheadlinedate",
+            "boundingRect": {
+              "top": 1272,
+              "bottom": 1286,
+              "left": 71,
+              "right": 226,
+              "width": 155,
+              "height": 14
+            },
+            "snippet": "<span class=\"copyheadlinedate\">",
+            "nodeLabel": "March 24, 2023 - Fox News",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.5pt (12.642px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-848-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,3,DIV",
+                  "selector": "section.paragraph > div.container > div.subpage__body > div.jquery-ui-filter-tabs-0-widget",
+                  "boundingRect": {
+                    "top": 799,
+                    "bottom": 1448,
+                    "left": 49,
+                    "right": 388,
+                    "width": 339,
+                    "height": 650
+                  },
+                  "snippet": "<div data-ui-role=\"tabs\" class=\"jquery-ui-filter-tabs-0-widget ui-tabs ui-corner-all ui-widget ui-widget-c…\">",
+                  "nodeLabel": "Prev\nNext\n\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n\nMay 26, 2023 - Carroll Broadcast…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
