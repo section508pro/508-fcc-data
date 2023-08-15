@@ -1,0 +1,110 @@
+[
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 15,
+              "bottom": 55,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-136-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,A",
+            "selector": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "boundingRect": {
+              "top": 1622,
+              "bottom": 1641,
+              "left": 69,
+              "right": 174,
+              "width": 105,
+              "height": 19
+            },
+            "snippet": "<a href=\"/about/leadership/jessica-rosenworcel\" hreflang=\"und\">",
+            "nodeLabel": "article.node > div.leadership-image > div.leadership__field-image-thumbnail-media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
