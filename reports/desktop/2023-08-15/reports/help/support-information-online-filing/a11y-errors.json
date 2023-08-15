@@ -1,0 +1,455 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-114-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,4,TBODY,0,TR,3,TD,2,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 490,
+              "bottom": 509,
+              "left": 1020,
+              "right": 1136,
+              "width": 116,
+              "height": 19
+            },
+            "snippet": "<a href=\"mailto:armis-hp@fcc.gov\">",
+            "nodeLabel": "armis-hp@fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-222-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,4,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 465,
+                    "bottom": 517,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 51
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "WCB\tAutomated Reporting Management Information System (ARMIS)\t7:00am-4:30pm\t202…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-116-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,8,TBODY,0,TR,3,TD,2,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 593,
+              "bottom": 612,
+              "left": 1015,
+              "right": 1141,
+              "width": 126,
+              "height": 19
+            },
+            "snippet": "<a href=\"mailto:coals_help@fcc.gov\">",
+            "nodeLabel": "coals_help@fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-223-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,8,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 568,
+                    "bottom": 619,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 51
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "MB\tCable Operations & Licensing System (COALS)\t8:00am-4:30pm\t202-418-7000\ncoals…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-117-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,16,TBODY,0,TR,3,TD,2,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 748,
+              "bottom": 767,
+              "left": 985,
+              "right": 1170,
+              "width": 185,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://consumercomplaints.fcc.gov\">",
+            "nodeLabel": "consumercomplaints.fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-224-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,16,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 723,
+                    "bottom": 775,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 51
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "CGB\tConsumer Complaints Center\t8:00am-5:00pm\t888-225-5322\nconsumercomplaints.fc…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-119-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,20,TBODY,0,TR,3,TD,2,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 851,
+              "bottom": 870,
+              "left": 1021,
+              "right": 1134,
+              "width": 113,
+              "height": 19
+            },
+            "snippet": "<a href=\"mailto:Ecfshelp@fcc.gov\">",
+            "nodeLabel": "ecfshelp@fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,20,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 826,
+                    "bottom": 877,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 51
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "CGB\tElectronic Comment Filing System (ECFS)\t8:00am-5:00pm\t202-418-0193\necfshelp…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-121-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,24,TBODY,0,TR,3,TD,0,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 936,
+              "bottom": 955,
+              "left": 1036,
+              "right": 1120,
+              "width": 84,
+              "height": 19
+            },
+            "snippet": "<a href=\"mailto:etfs@fcc.gov\">",
+            "nodeLabel": "etfs@fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-226-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,24,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 929,
+                    "bottom": 963,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 35
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "WCB\tElectronic Tariff Filing System (ETFS)\t6:00am-4:30pm\tetfs@fcc.gov\n"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-123-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,28,TBODY,0,TR,3,TD,2,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 1023,
+              "bottom": 1042,
+              "left": 1039,
+              "right": 1117,
+              "width": 78,
+              "height": 19
+            },
+            "snippet": "<a href=\"mailto:elb@fcc.gov\">",
+            "nodeLabel": "elb@fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-227-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,28,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 998,
+                    "bottom": 1049,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 51
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "OET\tExperimental Licensing Branch Electronic Filing (ELS)\t8:00am-5:30pm\t202-418…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-125-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,32,TBODY,0,TR,3,TD,2,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 1125,
+              "bottom": 1144,
+              "left": 1005,
+              "right": 1151,
+              "width": 146,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://esupport.fcc.gov\">",
+            "nodeLabel": "http://esupport.fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-228-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,32,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1152,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 51
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "OMD\tGeneral Menu Reports (GENMEN)\t6:30am-4:30pm\t877-480-3201\nhttp://esupport.fc…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-127-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,36,TBODY,0,TR,3,TD,6,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 1264,
+              "bottom": 1283,
+              "left": 1005,
+              "right": 1151,
+              "width": 146,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://esupport.fcc.gov/\">",
+            "nodeLabel": "http://esupport.fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-229-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,36,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 1203,
+                    "bottom": 1291,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 88
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "WTB\tLicensing Support & Forms Issues\t8:00am-6:00pm\tphone: 877-480-3201\nphone: 8…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,40,TBODY,0,TR,3,TD,0,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 1350,
+              "bottom": 1369,
+              "left": 1011,
+              "right": 1144,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.fcc.gov/labhelp/\">",
+            "nodeLabel": "www.fcc.gov/labhelp",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-230-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,40,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 1343,
+                    "bottom": 1377,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 35
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "OET\tOET Knowledge Database\t8:00am-5:00pm\twww.fcc.gov/labhelp\n"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-132-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,48,TBODY,0,TR,3,TD,4,A",
+            "selector": "tbody > tr > td.deets > a",
+            "boundingRect": {
+              "top": 1541,
+              "bottom": 1560,
+              "left": 1005,
+              "right": 1151,
+              "width": 146,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://esupport.fcc.gov\">",
+            "nodeLabel": "http://esupport.fcc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #2c75d6, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-231-TBODY",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,48,TBODY",
+                  "selector": "div.page-body > div.page__body > table.support > tbody",
+                  "boundingRect": {
+                    "top": 1498,
+                    "bottom": 1567,
+                    "left": 153,
+                    "right": 1197,
+                    "width": 1044,
+                    "height": 70
+                  },
+                  "snippet": "<tbody>",
+                  "nodeLabel": "WTB\tTower Construction Notification System (TCNS)\t8:00am-6:00pm\tphone: 877-480-…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-137-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,2,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,15,DIV,2,OL,0,LI,1,A",
+            "selector": "div.special > ol > li > a",
+            "boundingRect": {
+              "top": 1550,
+              "bottom": 1569,
+              "left": 252,
+              "right": 353,
+              "width": 101,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.GetInternet.gov\">",
+            "nodeLabel": "GetInternet.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #2c75d6, background color: #fff8bc, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-268-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,2,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,15,DIV",
+                  "selector": "div.page-body > div.page__body > div.container > div.special",
+                  "boundingRect": {
+                    "top": 1481,
+                    "bottom": 1741,
+                    "left": 168,
+                    "right": 1183,
+                    "width": 1015,
+                    "height": 260
+                  },
+                  "snippet": "<div class=\"special\">",
+                  "nodeLabel": "Two Steps to Enroll\n\n\nApply Now\n\n\nGo to GetInternet.gov to submit an applicatio…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-266-INPUT",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,1,DIV,0,FORM,4,DIV,0,INPUT",
+            "selector": "div.block > form#search-block-form > div#edit-actions > input#edit-submit",
+            "boundingRect": {
+              "top": 17,
+              "bottom": 51,
+              "left": 1138,
+              "right": 1198,
+              "width": 60,
+              "height": 34
+            },
+            "snippet": "<input data-drupal-selector=\"edit-submit\" type=\"submit\" id=\"edit-submit\" name=\"op\" value=\"Search\" class=\"button js-form-submit form-submit btn btn-primary\">",
+            "nodeLabel": "div.block > form#search-block-form > div#edit-actions > input#edit-submit",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: edit-submit"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-269-INPUT",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,0,DIV,2,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,25,DIV,10,DIV,0,FORM,0,DIV,10,INPUT",
+                  "selector": "div.fcclyris > form#fcclyris-broadbandbenefitlist-form > div > input#edit-submit",
+                  "boundingRect": {
+                    "top": 3021,
+                    "bottom": 3049,
+                    "left": 169,
+                    "right": 247,
+                    "width": 78,
+                    "height": 28
+                  },
+                  "snippet": "<input class=\"form-submit ae-button\" data-ae-blurbtype=\"button\" data-ae-form-field=\"true\" id=\"edit-submit\" name=\"subscribe\" type=\"submit\" value=\"Subscribe\">",
+                  "nodeLabel": "div.fcclyris > form#fcclyris-broadbandbenefitlist-form > div > input#edit-submit"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

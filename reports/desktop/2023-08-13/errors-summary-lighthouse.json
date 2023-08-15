@@ -6,8 +6,8 @@
   "heading-order": 6,
   "aria-required-children": 6,
   "aria-allowed-attr": 5,
-  "aria-input-field-name": 2,
   "aria-required-parent": 2,
   "listitem": 2,
+  "aria-input-field-name": 2,
   "duplicate-id-aria": 1
 }
