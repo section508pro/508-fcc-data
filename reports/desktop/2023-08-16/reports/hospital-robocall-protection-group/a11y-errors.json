@@ -1,0 +1,287 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-224-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,P,0,SPAN",
+            "selector": "div.page-body > div.page__body > p.tfheadline > span.tfheadlinedate",
+            "boundingRect": {
+              "top": 949,
+              "bottom": 966,
+              "left": 421,
+              "right": 633,
+              "width": 212,
+              "height": 17
+            },
+            "snippet": "<span class=\"tfheadlinedate\">",
+            "nodeLabel": "December 14, 2020 – News Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.4pt (12.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2743,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2745
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-239141 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-226-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,13,P,0,SPAN",
+            "selector": "div.page-body > div.page__body > p.tfheadline > span.tfheadlinedate",
+            "boundingRect": {
+              "top": 997,
+              "bottom": 1014,
+              "left": 421,
+              "right": 624,
+              "width": 203,
+              "height": 17
+            },
+            "snippet": "<span class=\"tfheadlinedate\">",
+            "nodeLabel": "November 30, 2020 – Public Notice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.4pt (12.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2743,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2745
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-239141 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-227-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,P,0,SPAN",
+            "selector": "div.page-body > div.page__body > p.tfheadline > span.tfheadlinedate",
+            "boundingRect": {
+              "top": 1046,
+              "bottom": 1063,
+              "left": 421,
+              "right": 581,
+              "width": 160,
+              "height": 17
+            },
+            "snippet": "<span class=\"tfheadlinedate\">",
+            "nodeLabel": "July 14, 2020 – Public Notice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.4pt (12.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2743,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2745
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-239141 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-228-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,15,P,0,SPAN",
+            "selector": "div.page-body > div.page__body > p.tfheadline > span.tfheadlinedate",
+            "boundingRect": {
+              "top": 1094,
+              "bottom": 1111,
+              "left": 421,
+              "right": 598,
+              "width": 177,
+              "height": 17
+            },
+            "snippet": "<span class=\"tfheadlinedate\">",
+            "nodeLabel": "March 25, 2020 – Public Notice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.4pt (12.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2743,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2745
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-239141 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-229-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P,0,SPAN",
+            "selector": "div.page-body > div.page__body > p.tfheadline > span.tfheadlinedate",
+            "boundingRect": {
+              "top": 1373,
+              "bottom": 1390,
+              "left": 421,
+              "right": 588,
+              "width": 167,
+              "height": 17
+            },
+            "snippet": "<span class=\"tfheadlinedate\">",
+            "nodeLabel": "June 11, 2021 – Public Notice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.4pt (12.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2743,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2745
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-239141 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-230-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,20,P,0,SPAN",
+            "selector": "div.page-body > div.page__body > p.tfheadline > span.tfheadlinedate",
+            "boundingRect": {
+              "top": 1421,
+              "bottom": 1438,
+              "left": 421,
+              "right": 605,
+              "width": 184,
+              "height": 17
+            },
+            "snippet": "<span class=\"tfheadlinedate\">",
+            "nodeLabel": "January 11, 2021 – Public Notice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.4pt (12.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-225-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-page",
+                  "boundingRect": {
+                    "top": -2,
+                    "bottom": 2743,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2745
+                  },
+                  "snippet": "<body class=\"page-node-page page-node-239141 layout-two-sidebars path-node page-node-ty…\" data-audioeye-lang=\"en\" data-audioeye-device-desktop=\"\" data-audioeye-launcher=\"\">",
+                  "nodeLabel": "body.page-node-page"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

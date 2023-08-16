@@ -1,0 +1,54 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-225-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div.content > div.component-card__field-card-body > div > h4",
+            "boundingRect": {
+              "top": 1072,
+              "bottom": 1093,
+              "left": 435,
+              "right": 1184,
+              "width": 748,
+              "height": 21
+            },
+            "snippet": "<h4 aria-level=\"3\" role=\"presentation\">",
+            "nodeLabel": "File a Complaint",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-level=\"3\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

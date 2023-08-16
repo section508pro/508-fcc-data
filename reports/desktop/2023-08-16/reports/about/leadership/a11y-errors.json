@@ -1,0 +1,115 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-128-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "boundingRect": {
+              "top": 325,
+              "bottom": 440,
+              "left": 442,
+              "right": 617,
+              "width": 175,
+              "height": 115
+            },
+            "snippet": "<a href=\"/about/leadership/jessica-rosenworcel\" hreflang=\"und\">",
+            "nodeLabel": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-141-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "boundingRect": {
+              "top": 513,
+              "bottom": 628,
+              "left": 442,
+              "right": 617,
+              "width": 175,
+              "height": 115
+            },
+            "snippet": "<a href=\"/about/leadership/brendan-carr\" hreflang=\"und\">",
+            "nodeLabel": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-152-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,A",
+            "selector": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "boundingRect": {
+              "top": 701,
+              "bottom": 816,
+              "left": 442,
+              "right": 617,
+              "width": 175,
+              "height": 115
+            },
+            "snippet": "<a href=\"/about/leadership/geoffrey-starks\" hreflang=\"und\">",
+            "nodeLabel": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-162-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,A",
+            "selector": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "boundingRect": {
+              "top": 889,
+              "bottom": 1004,
+              "left": 442,
+              "right": 617,
+              "width": 175,
+              "height": 115
+            },
+            "snippet": "<a href=\"/about/leadership/nathan-simington\" hreflang=\"und\">",
+            "nodeLabel": "div.js-view-dom-id-f6011c2d72e3d7dcce72848077db244ca7b33414362e786cb98778f8312f5794 > div.leadership-profile > div.image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
