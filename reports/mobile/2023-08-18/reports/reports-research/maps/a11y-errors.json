@@ -1,0 +1,248 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-354-H1",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,0,DIV,0,H1",
+            "selector": "div.navbar > div.container > div.navbar-header > h1.navbar-brand",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 56,
+              "left": 0,
+              "right": 168,
+              "width": 168,
+              "height": 56
+            },
+            "snippet": "<h1 class=\"navbar-brand\" role=\"presentation\" aria-level=\"2\">",
+            "nodeLabel": "Federal Communications Commission",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-level=\"2\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-355-UL",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL",
+            "selector": "nav > div.navbar > div.container > ul#menu-primary",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 58,
+              "left": 412,
+              "right": 742,
+              "width": 330,
+              "height": 58
+            },
+            "snippet": "<ul id=\"menu-primary\" class=\"nav navbar-nav nav-offcanvas-right\" role=\"tablist\" data-ae-site-menu-link=\"true\">",
+            "nodeLabel": "Browse by\nCATEGORY\nBrowse by\nBUREAUS & OFFICES",
+            "explanation": "Fix any of the following:\n  Required ARIA child role not present: tab"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-2-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL,0,LI,0,A",
+            "selector": "div.container > ul#menu-primary > li.active > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 56,
+              "left": 427,
+              "right": 553,
+              "width": 126,
+              "height": 56
+            },
+            "snippet": "<a aria-controls=\"browse-by-category\" href=\"#browseCategory\" tabindex=\"0\" aria-selected=\"true\" role=\"tab\">",
+            "nodeLabel": "Browse by\nCATEGORY",
+            "explanation": "Fix any of the following:\n  Required ARIA parent role not present: tablist"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-3-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL,1,LI,0,A",
+            "selector": "div.container > ul#menu-primary > li > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 56,
+              "left": 553,
+              "right": 727,
+              "width": 174,
+              "height": 56
+            },
+            "snippet": "<a class=\"\" href=\"#browseBureau\" tabindex=\"-1\" aria-selected=\"false\" role=\"tab\">",
+            "nodeLabel": "Browse by\nBUREAUS & OFFICES",
+            "explanation": "Fix any of the following:\n  Required ARIA parent role not present: tablist"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-356-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL,0,LI",
+            "selector": "div.navbar > div.container > ul#menu-primary > li.active",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 58,
+              "left": 427,
+              "right": 553,
+              "width": 126,
+              "height": 58
+            },
+            "snippet": "<li class=\"active\">",
+            "nodeLabel": "Browse by\nCATEGORY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-357-LI",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,0,DIV,1,UL,1,LI",
+            "selector": "div.navbar > div.container > ul#menu-primary > li",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 58,
+              "left": 553,
+              "right": 727,
+              "width": 174,
+              "height": 58
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Browse by\nBUREAUS & OFFICES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

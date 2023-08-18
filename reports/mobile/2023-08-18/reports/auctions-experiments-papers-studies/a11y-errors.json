@@ -1,0 +1,791 @@
+[
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-138-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "boundingRect": {
+              "top": 1348,
+              "bottom": 1348,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-140-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,2,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "boundingRect": {
+              "top": 1468,
+              "bottom": 1468,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-142-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,5,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "boundingRect": {
+              "top": 1527,
+              "bottom": 1527,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-144-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,7,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "boundingRect": {
+              "top": 1549,
+              "bottom": 1549,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-145-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,9,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "boundingRect": {
+              "top": 1706,
+              "bottom": 1706,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-147-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,11,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "boundingRect": {
+              "top": 1796,
+              "bottom": 1796,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-148-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,12,DIV,0,A",
+            "selector": "div.singleColumn > div.evenRow > div.links > a#experiments",
+            "boundingRect": {
+              "top": 1797,
+              "bottom": 1816,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div.links > a#experiments",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-172-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,9,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#papers",
+            "boundingRect": {
+              "top": 3198,
+              "bottom": 3198,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#papers",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-174-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,11,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#papers",
+            "boundingRect": {
+              "top": 3302,
+              "bottom": 3302,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#papers",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-175-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,15,DIV,0,A",
+            "selector": "div.evenRow > div > div.links > a#papers",
+            "boundingRect": {
+              "top": 3459,
+              "bottom": 3478,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.evenRow > div > div.links > a#papers",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-178-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,19,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#papers",
+            "boundingRect": {
+              "top": 3576,
+              "bottom": 3576,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#papers",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-179-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,21,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#papers",
+            "boundingRect": {
+              "top": 3598,
+              "bottom": 3598,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#papers",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-181-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,23,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#papers",
+            "boundingRect": {
+              "top": 3643,
+              "bottom": 3643,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#papers",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-182-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,24,DIV,0,A",
+            "selector": "div.evenRow > div > div.links > a#papers",
+            "boundingRect": {
+              "top": 3644,
+              "bottom": 3663,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.evenRow > div > div.links > a#papers",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-188-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,50,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#reports",
+            "boundingRect": {
+              "top": 4777,
+              "bottom": 4777,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-190-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,52,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#reports",
+            "boundingRect": {
+              "top": 4880,
+              "bottom": 4880,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-191-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,0,A",
+            "selector": "div.evenRow > div > div.evenRow > a#reports",
+            "boundingRect": {
+              "top": 4880,
+              "bottom": 4880,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.evenRow > div > div.evenRow > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-192-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,1,H2,0,A",
+            "selector": "div > div.evenRow > h2.label > a#reports",
+            "boundingRect": {
+              "top": 4880,
+              "bottom": 4880,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div > div.evenRow > h2.label > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-194-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,4,A",
+            "selector": "div.evenRow > div > div.evenRow > a#reports",
+            "boundingRect": {
+              "top": 4939,
+              "bottom": 4939,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.evenRow > div > div.evenRow > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-196-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,6,A",
+            "selector": "div.evenRow > div > div.evenRow > a#reports",
+            "boundingRect": {
+              "top": 4961,
+              "bottom": 4961,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.evenRow > div > div.evenRow > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-197-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,8,A",
+            "selector": "div.evenRow > div > div.evenRow > a#reports",
+            "boundingRect": {
+              "top": 4984,
+              "bottom": 4984,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.evenRow > div > div.evenRow > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-199-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,10,A",
+            "selector": "div.evenRow > div > div.evenRow > a#reports",
+            "boundingRect": {
+              "top": 5073,
+              "bottom": 5073,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.evenRow > div > div.evenRow > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-200-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,11,DIV,0,A",
+            "selector": "div > div.evenRow > div.links > a#reports",
+            "boundingRect": {
+              "top": 5074,
+              "bottom": 5093,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div > div.evenRow > div.links > a#reports",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 23
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,NAV,0,DIV,2,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.navbar_right > div#block-search-form > div#block-fcc-blocks-search-magnifying-glass > a.magnifying-glass",
+            "boundingRect": {
+              "top": 12,
+              "bottom": 52,
+              "left": 336,
+              "right": 376,
+              "width": 40,
+              "height": 40
+            },
+            "snippet": "<a role=\"button\" aria-controls=\"navigation\" tabindex=\"0\" class=\"magnifying-glass\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"navigation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-138-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,A",
+            "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "boundingRect": {
+              "top": 1348,
+              "bottom": 1348,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: experiments"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-139-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,H2,0,A",
+                  "selector": "div.evenRow > div.sectionHeadBox > h2 > a#experiments",
+                  "boundingRect": {
+                    "top": 1351,
+                    "bottom": 1434,
+                    "left": 12,
+                    "right": 220,
+                    "width": 208,
+                    "height": 83
+                  },
+                  "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Auction Design Experiments"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-140-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,2,A",
+                  "selector": "div.page__body > div.singleColumn > div.evenRow > a#experiments",
+                  "boundingRect": {
+                    "top": 1468,
+                    "bottom": 1468,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.page__body > div.singleColumn > div.evenRow > a#experiments"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-141-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,A",
+                  "selector": "div.singleColumn > div.evenRow > div.date > a#experiments",
+                  "boundingRect": {
+                    "top": 1506,
+                    "bottom": 1525,
+                    "left": 12,
+                    "right": 78,
+                    "width": 66,
+                    "height": 19
+                  },
+                  "snippet": "<a name=\"experiments\" id=\"experiments\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "5/25/2007"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-172-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,9,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#papers",
+            "boundingRect": {
+              "top": 3198,
+              "bottom": 3198,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#papers",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: papers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-173-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,10,DIV,0,H2,0,A",
+                  "selector": "div > div.sectionHeadBox > h2 > a#papers",
+                  "boundingRect": {
+                    "top": 3229,
+                    "bottom": 3267,
+                    "left": 12,
+                    "right": 222,
+                    "width": 210,
+                    "height": 38
+                  },
+                  "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Auction Papers"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-174-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,11,A",
+                  "selector": "div.singleColumn > div.evenRow > div > a#papers",
+                  "boundingRect": {
+                    "top": 3302,
+                    "bottom": 3302,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.singleColumn > div.evenRow > div > a#papers"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-175-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,15,DIV,0,A",
+                  "selector": "div.evenRow > div > div.links > a#papers",
+                  "boundingRect": {
+                    "top": 3459,
+                    "bottom": 3478,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 19
+                  },
+                  "snippet": "<a name=\"papers\" id=\"papers\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.evenRow > div > div.links > a#papers"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-188-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,50,A",
+            "selector": "div.singleColumn > div.evenRow > div > a#reports",
+            "boundingRect": {
+              "top": 4777,
+              "bottom": 4777,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+            "nodeLabel": "div.singleColumn > div.evenRow > div > a#reports",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: reports"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-189-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,51,DIV,0,H2,0,A",
+                  "selector": "div > div.sectionHeadBox > h2 > a#reports",
+                  "boundingRect": {
+                    "top": 4808,
+                    "bottom": 4846,
+                    "left": 12,
+                    "right": 303,
+                    "width": 291,
+                    "height": 38
+                  },
+                  "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "Competition Reports"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-190-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,52,A",
+                  "selector": "div.singleColumn > div.evenRow > div > a#reports",
+                  "boundingRect": {
+                    "top": 4880,
+                    "bottom": 4880,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.singleColumn > div.evenRow > div > a#reports"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-191-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,14,DIV,53,DIV,0,A",
+                  "selector": "div.evenRow > div > div.evenRow > a#reports",
+                  "boundingRect": {
+                    "top": 4880,
+                    "bottom": 4880,
+                    "left": 12,
+                    "right": 12,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"reports\" id=\"reports\" role=\"button\" tabindex=\"0\">",
+                  "nodeLabel": "div.evenRow > div > div.evenRow > a#reports"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
